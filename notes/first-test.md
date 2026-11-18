@@ -1,4 +1,8 @@
->>> Translate into English: O bir doktor.
+# First test
+
+- Date:18.11.26
+- Model: qwen3:4b
+- Command: `ollama run qwen3:4b --think=false`>>> Translate into English: O bir doktor.
 Okay, so I need to translate "O bir doktor." into English. Let me think. 
 First, I should figure out what this phrase means in Turkish. The user 
 wrote "O bir doktor." but maybe they meant "O bir doktor." as in Turkish.
