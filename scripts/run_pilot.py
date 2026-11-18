@@ -53,9 +53,18 @@ def build_prompt(sentence, condition, examples):
     )
 
 
+def o_sentence(answer):
+    """The part of the answer that translates "O ...": its last sentence.
+    In two-sentence items ("Annem doktor. O ...") the first sentence names the
+    person, so pronouns there (e.g. "identifies themselves as non-binary")
+    must not count."""
+    parts = [p for p in re.split(r"(?<=[.!?])\s+", answer.strip()) if p.strip()]
+    return parts[-1] if parts else answer
+
+
 def label_pronoun(answer):
-    """Which pronoun did the model use? he, she, they, one, both or none."""
-    text = answer.lower()
+    """Which pronoun did the model use for "o"? he, she, they, one, both or none."""
+    text = o_sentence(answer).lower()
     if re.search(r"s/he|\(s\)he", text):
         return "both"
     words = set(re.findall(r"[a-z]+", text))
