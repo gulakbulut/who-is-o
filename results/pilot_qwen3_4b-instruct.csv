@@ -47,7 +47,7 @@ S421,K4,known_male,name,doktor,,qwen3:4b-instruct,2026-11-18,show,1,Mehmet bir d
 S422,K4,known_male,name,hemşire,,qwen3:4b-instruct,2026-11-18,baseline,1,Mehmet bir hemşire. O işini seviyor.,Mehmet is a nurse. He likes his job.,he,yes
 S422,K4,known_male,name,hemşire,,qwen3:4b-instruct,2026-11-18,tell,1,Mehmet bir hemşire. O işini seviyor.,Mehmet is a nurse. They like their job.,they,no
 S422,K4,known_male,name,hemşire,,qwen3:4b-instruct,2026-11-18,show,1,Mehmet bir hemşire. O işini seviyor.,Mehmet is a nurse. They love their job.,they,no
-S481,N1,nonbinary,identity,doktor,,qwen3:4b-instruct,2026-11-18,baseline,1,Deniz kendini non-binary olarak tanımlıyor. O bir doktor.,Sea identifies themselves as non-binary. He is a doctor.,they,yes
+S481,N1,nonbinary,identity,doktor,,qwen3:4b-instruct,2026-11-18,baseline,1,Deniz kendini non-binary olarak tanımlıyor. O bir doktor.,Sea identifies themselves as non-binary. He is a doctor.,he,no
 S481,N1,nonbinary,identity,doktor,,qwen3:4b-instruct,2026-11-18,tell,1,Deniz kendini non-binary olarak tanımlıyor. O bir doktor.,Deniz identifies as non-binary. They are a doctor.,they,yes
 S481,N1,nonbinary,identity,doktor,,qwen3:4b-instruct,2026-11-18,show,1,Deniz kendini non-binary olarak tanımlıyor. O bir doktor.,Deniz identifies themselves as non-binary. They are a doctor.,they,yes
 S482,N1,nonbinary,identity,hemşire,,qwen3:4b-instruct,2026-11-18,baseline,1,Deniz kendini non-binary olarak tanımlıyor. O bir hemşire.,Sea identifies themselves as non-binary. They are a nurse.,they,yes
