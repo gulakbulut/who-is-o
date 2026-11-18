@@ -2,7 +2,7 @@ import json
 import urllib.request
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL = "qwen3:4b"
+MODEL = "qwen3:4b-instruct"   # must match the name in `ollama list`
 
 
 def ask(prompt):
@@ -11,8 +11,8 @@ def ask(prompt):
         "model": MODEL,
         "messages": [{"role": "user", "content": prompt}],
         "stream": False,
-        "think": False,                  # no reasoning text, just the answer
-        "options": {"temperature": 0},   # same answer every time
+        "think": False,
+        "options": {"temperature": 0},
     }
     request = urllib.request.Request(
         OLLAMA_URL,
@@ -21,7 +21,10 @@ def ask(prompt):
     )
     with urllib.request.urlopen(request) as response:
         answer = json.loads(response.read().decode("utf-8"))
-    return answer["message"]["content"].strip()
+    text = answer["message"]["content"]
+    if "</think>" in text:              # safety net: drop any reasoning text
+        text = text.split("</think>")[-1]
+    return text.strip()
 
 
 if __name__ == "__main__":
