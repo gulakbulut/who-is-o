@@ -8,7 +8,7 @@ from ask_model import ask, MODEL
 
 DATA = "data"
 RESULTS = "results"
-RUN_NAME = "pilot2"   # change for each new run, so earlier results are never mixed in
+RUN_NAME = "pilot3"   # change for each new run, so earlier results are never mixed in
 PILOT_JOBS = {"doktor", "hemşire"}          # 2 jobs x 11 templates = 22 sentences
 CONDITIONS = ["baseline", "tell", "show"]
 
