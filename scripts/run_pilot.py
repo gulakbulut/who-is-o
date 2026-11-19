@@ -8,8 +8,8 @@ from ask_model import ask, MODEL
 
 DATA = "data"
 RESULTS = "results"
-RUN_NAME = "pilot4"   # change for each new run, so earlier results are never mixed in
-PILOT_JOBS = {"doktor", "hemşire"}          # 2 jobs x 11 templates = 22 sentences
+RUN_NAME = "model"   # change for each new run, so earlier results are never mixed in
+PILOT_JOBS = None   # None = all 60 jobs
 CONDITIONS = ["baseline", "tell", "show"]
 
 INSTRUCTION = (
@@ -97,8 +97,8 @@ def is_correct(case, pronoun):
 
 def main():
     with open(os.path.join(DATA, "test_sentences.csv"), encoding="utf-8") as f:
-        sentences = [r for r in csv.DictReader(f) if r["job_tr"] in PILOT_JOBS]
-    examples = load_examples()
+        sentences = [r for r in csv.DictReader(f) if PILOT_JOBS is None or r["job_tr"] in PILOT_JOBS]
+        examples = load_examples()
     os.makedirs(RESULTS, exist_ok=True)
     out_path = os.path.join(RESULTS, RUN_NAME + "_" + MODEL.replace(":", "_") + ".csv")
 
