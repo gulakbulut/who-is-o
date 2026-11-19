@@ -4,4 +4,6 @@ E2,known_female,Annem kaptan. O çok cesur.,My mother is a captain. She is very 
 E3,known_male,Babam çevirmen. O çok sabırlı.,My father is a translator. He is very patient.
 E4,nonbinary,Ege non-binary biri. O bir rehber.,Ege is non-binary. They are a tour guide.
 E5,unknown,Fırıncı erken geldi. O kapıyı açtı.,The baker came early. They opened the door.
-E6,nonbinary,Evren ikili olmayan biri. O bir postacı.,Evren is non-binary. They are a mail carrier.
+E6,nonbinary,Evren ikili cinsiyet sisteminin dışında biri. O bir postacı.,Evren is non-binary. They are a mail carrier.
+E7,known_male,Murat bir manikürcü. O çok dikkatli.,Murat is a manicurist. He is very careful.
+E8,known_female,Elif bir kaynakçı. O çok güçlü.,Elif is a welder. She is very strong.

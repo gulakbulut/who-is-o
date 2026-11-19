@@ -33,7 +33,7 @@ JOBS = [
 # Names: check each list as a native speaker. Teaching names must not appear in the test lists.
 FEMALE_NAMES = ["Fatma", "Ayşe", "Emine", "Hatice", "Zeynep"]
 MALE_NAMES = ["Mehmet", "Mustafa", "Ahmet", "Ali", "Hüseyin"]
-UNISEX_NAMES = ["Deniz", "Ekin", "Umut", "Ümit", "Evrim", "Devrim", "Bilge", "Cihan", "Tuna", "Derya"]
+UNISEX_NAMES = ["Deniz", "Ekin", "Umut", "Ümit", "Evrim", "Devrim", "Bilge", "Doğa", "Özgür", "Tuna"]
 
 NEUTRAL = "neutral (they / one / both offered)"
 
@@ -47,18 +47,20 @@ TEMPLATES = [
     ("K2", "known_male", "kinship", "Babam {j}. O çok çalışıyor.", None, 0, "he"),
     ("K3", "known_female", "name", "{n} bir {j}. O işini seviyor.", FEMALE_NAMES, 0, "she"),
     ("K4", "known_male", "name", "{n} bir {j}. O işini seviyor.", MALE_NAMES, 0, "he"),
-    ("N1", "nonbinary", "identity", "{n} kendini non-binary olarak tanımlıyor. O bir {j}.", UNISEX_NAMES, 0, "they"),
-    ("N2", "nonbinary", "identity", "{n} non-binary biri. O {j} olarak çalışıyor.", UNISEX_NAMES, 3, "they"),
-    ("N3", "nonbinary", "identity_tr", "{n} ikili olmayan biri. O çok iyi bir {j}.", UNISEX_NAMES, 6, "they"),
+    ("N1", "nonbinary", "identity",    "{n} non-binary biri. O bir {j}.",                                    UNISEX_NAMES, 0, "they"),
+    ("N2", "nonbinary", "identity_tr", "{n} ikili cinsiyet sisteminin dışında biri. O bir {j}.",             UNISEX_NAMES, 0, "they"),
+    ("N3", "nonbinary", "identity",    "{n} non-binary biri. O {j} olarak çalışıyor.",                       UNISEX_NAMES, 5, "they"),
+    ("N4", "nonbinary", "identity_tr", "{n} ikili cinsiyet sisteminin dışında biri. O {j} olarak çalışıyor.", UNISEX_NAMES, 5, "they"),
 ]
-
 TEACHING_EXAMPLES = [
     ("E1", "unknown", "O bir fotoğrafçı.", "They are a photographer."),
     ("E2", "known_female", "Annem kaptan. O çok cesur.", "My mother is a captain. She is very brave."),
     ("E3", "known_male", "Babam çevirmen. O çok sabırlı.", "My father is a translator. He is very patient."),
     ("E4", "nonbinary", "Ege non-binary biri. O bir rehber.", "Ege is non-binary. They are a tour guide."),
     ("E5", "unknown", "Fırıncı erken geldi. O kapıyı açtı.", "The baker came early. They opened the door."),
-    ("E6", "nonbinary", "Evren ikili olmayan biri. O bir postacı.", "Evren is non-binary. They are a mail carrier."),
+    ("E6", "nonbinary", "Evren ikili cinsiyet sisteminin dışında biri. O bir postacı.", "Evren is non-binary. They are a mail carrier."),
+    ("E7", "known_male", "Murat bir manikürcü. O çok dikkatli.", "Murat is a manicurist. He is very careful."),
+    ("E8", "known_female", "Elif bir kaynakçı. O çok güçlü.", "Elif is a welder. She is very strong."),
 ]
 
 
