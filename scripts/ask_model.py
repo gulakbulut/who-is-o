@@ -8,7 +8,7 @@ MODEL = "gemma3:4b"   # must match the name in `ollama list`
 def ask(prompt):
     """Send one prompt to the local model and return its answer."""
     body = {
-        "model": MODEL,
+        "model": "qwen3:4b-instruct",
         "messages": [{"role": "user", "content": prompt}],
         "stream": False,
         "think": False,
