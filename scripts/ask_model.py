@@ -2,13 +2,13 @@ import json
 import urllib.request
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL = "gemma3:4b"   # must match the name in `ollama list`
+MODEL = "qwen3:4b-instruct"   # must match the name in `ollama list`
 
 
 def ask(prompt):
     """Send one prompt to the local model and return its answer."""
     body = {
-        "model": "qwen3:4b-instruct",
+        "model": MODEL,
         "messages": [{"role": "user", "content": prompt}],
         "stream": False,
         "think": False,
