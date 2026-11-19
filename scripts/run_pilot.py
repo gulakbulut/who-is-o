@@ -8,7 +8,8 @@ from ask_model import ask, MODEL
 
 DATA = "data"
 RESULTS = "results"
-PILOT_JOBS = {"doktor", "hemşire"}          # 2 jobs x 10 templates = 20 sentences
+RUN_NAME = "pilot2"   # change for each new run, so earlier results are never mixed in
+PILOT_JOBS = {"doktor", "hemşire"}          # 2 jobs x 11 templates = 22 sentences
 CONDITIONS = ["baseline", "tell", "show"]
 
 INSTRUCTION = (
@@ -27,7 +28,7 @@ SHE = {"she", "her", "hers", "herself"}
 THEY = {"they", "them", "their", "theirs", "themselves", "themself"}
 
 FIELDS = [
-    "sentence_id", "template_id", "case", "cue", "job_tr", "job_stereotype",
+    "sentence_id", "template_id", "case", "cue", "name", "job_tr", "job_stereotype",
     "model", "date", "condition", "repeat", "sentence_tr", "answer_en",
     "output_pronoun", "correct",
 ]
@@ -99,7 +100,7 @@ def main():
         sentences = [r for r in csv.DictReader(f) if r["job_tr"] in PILOT_JOBS]
     examples = load_examples()
     os.makedirs(RESULTS, exist_ok=True)
-    out_path = os.path.join(RESULTS, "pilot_" + MODEL.replace(":", "_") + ".csv")
+    out_path = os.path.join(RESULTS, RUN_NAME + "_" + MODEL.replace(":", "_") + ".csv")
 
     # Resume: skip answers already saved, so a stopped run can continue.
     done = set()
@@ -126,6 +127,7 @@ def main():
                     "template_id": row["template_id"],
                     "case": row["case"],
                     "cue": row["cue"],
+                    "name": row.get("name", ""),
                     "job_tr": row["job_tr"],
                     "job_stereotype": row["job_stereotype"],
                     "model": MODEL,

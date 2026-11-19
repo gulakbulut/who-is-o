@@ -1,601 +1,661 @@
-sentence_id,template_id,case,cue,job_tr,job_en,job_stereotype,sentence_tr,correct_pronoun_en
-S001,U1,unknown,none,doktor,doctor,,O bir doktor.,neutral (they / one / both offered)
-S002,U1,unknown,none,hemşire,nurse,,O bir hemşire.,neutral (they / one / both offered)
-S003,U1,unknown,none,mühendis,engineer,,O bir mühendis.,neutral (they / one / both offered)
-S004,U1,unknown,none,öğretmen,teacher,,O bir öğretmen.,neutral (they / one / both offered)
-S005,U1,unknown,none,pilot,pilot,,O bir pilot.,neutral (they / one / both offered)
-S006,U1,unknown,none,sekreter,secretary,,O bir sekreter.,neutral (they / one / both offered)
-S007,U1,unknown,none,avukat,lawyer,,O bir avukat.,neutral (they / one / both offered)
-S008,U1,unknown,none,hakim,judge,,O bir hakim.,neutral (they / one / both offered)
-S009,U1,unknown,none,polis,police officer,,O bir polis.,neutral (they / one / both offered)
-S010,U1,unknown,none,asker,soldier,,O bir asker.,neutral (they / one / both offered)
-S011,U1,unknown,none,aşçı,cook,,O bir aşçı.,neutral (they / one / both offered)
-S012,U1,unknown,none,kuaför,hairdresser,,O bir kuaför.,neutral (they / one / both offered)
-S013,U1,unknown,none,temizlikçi,cleaner,,O bir temizlikçi.,neutral (they / one / both offered)
-S014,U1,unknown,none,bebek bakıcısı,babysitter,,O bir bebek bakıcısı.,neutral (they / one / both offered)
-S015,U1,unknown,none,ebe,midwife,,O bir ebe.,neutral (they / one / both offered)
-S016,U1,unknown,none,cerrah,surgeon,,O bir cerrah.,neutral (they / one / both offered)
-S017,U1,unknown,none,eczacı,pharmacist,,O bir eczacı.,neutral (they / one / both offered)
-S018,U1,unknown,none,diş hekimi,dentist,,O bir diş hekimi.,neutral (they / one / both offered)
-S019,U1,unknown,none,psikolog,psychologist,,O bir psikolog.,neutral (they / one / both offered)
-S020,U1,unknown,none,sosyal hizmet uzmanı,social worker,,O bir sosyal hizmet uzmanı.,neutral (they / one / both offered)
-S021,U1,unknown,none,muhasebeci,accountant,,O bir muhasebeci.,neutral (they / one / both offered)
-S022,U1,unknown,none,bankacı,banker,,O bir bankacı.,neutral (they / one / both offered)
-S023,U1,unknown,none,yönetici,manager,,O bir yönetici.,neutral (they / one / both offered)
-S024,U1,unknown,none,CEO,CEO,,O bir CEO.,neutral (they / one / both offered)
-S025,U1,unknown,none,girişimci,entrepreneur,,O bir girişimci.,neutral (they / one / both offered)
-S026,U1,unknown,none,yazılımcı,software developer,,O bir yazılımcı.,neutral (they / one / both offered)
-S027,U1,unknown,none,bilim insanı,scientist,,O bir bilim insanı.,neutral (they / one / both offered)
-S028,U1,unknown,none,fizikçi,physicist,,O bir fizikçi.,neutral (they / one / both offered)
-S029,U1,unknown,none,matematikçi,mathematician,,O bir matematikçi.,neutral (they / one / both offered)
-S030,U1,unknown,none,kimyager,chemist,,O bir kimyager.,neutral (they / one / both offered)
-S031,U1,unknown,none,mimar,architect,,O bir mimar.,neutral (they / one / both offered)
-S032,U1,unknown,none,elektrikçi,electrician,,O bir elektrikçi.,neutral (they / one / both offered)
-S033,U1,unknown,none,tesisatçı,plumber,,O bir tesisatçı.,neutral (they / one / both offered)
-S034,U1,unknown,none,tamirci,mechanic,,O bir tamirci.,neutral (they / one / both offered)
-S035,U1,unknown,none,inşaat işçisi,construction worker,,O bir inşaat işçisi.,neutral (they / one / both offered)
-S036,U1,unknown,none,kamyon şoförü,truck driver,,O bir kamyon şoförü.,neutral (they / one / both offered)
-S037,U1,unknown,none,çiftçi,farmer,,O bir çiftçi.,neutral (they / one / both offered)
-S038,U1,unknown,none,balıkçı,fisher,,O bir balıkçı.,neutral (they / one / both offered)
-S039,U1,unknown,none,garson,waiter,,O bir garson.,neutral (they / one / both offered)
-S040,U1,unknown,none,kasiyer,cashier,,O bir kasiyer.,neutral (they / one / both offered)
-S041,U1,unknown,none,resepsiyonist,receptionist,,O bir resepsiyonist.,neutral (they / one / both offered)
-S042,U1,unknown,none,kütüphaneci,librarian,,O bir kütüphaneci.,neutral (they / one / both offered)
-S043,U1,unknown,none,anaokulu öğretmeni,preschool teacher,,O bir anaokulu öğretmeni.,neutral (they / one / both offered)
-S044,U1,unknown,none,profesör,professor,,O bir profesör.,neutral (they / one / both offered)
-S045,U1,unknown,none,gazeteci,journalist,,O bir gazeteci.,neutral (they / one / both offered)
-S046,U1,unknown,none,yazar,writer,,O bir yazar.,neutral (they / one / both offered)
-S047,U1,unknown,none,ressam,painter,,O bir ressam.,neutral (they / one / both offered)
-S048,U1,unknown,none,dansçı,dancer,,O bir dansçı.,neutral (they / one / both offered)
-S049,U1,unknown,none,moda tasarımcısı,fashion designer,,O bir moda tasarımcısı.,neutral (they / one / both offered)
-S050,U1,unknown,none,terzi,tailor,,O bir terzi.,neutral (they / one / both offered)
-S051,U1,unknown,none,itfaiyeci,firefighter,,O bir itfaiyeci.,neutral (they / one / both offered)
-S052,U1,unknown,none,güvenlik görevlisi,security guard,,O bir güvenlik görevlisi.,neutral (they / one / both offered)
-S053,U1,unknown,none,politikacı,politician,,O bir politikacı.,neutral (they / one / both offered)
-S054,U1,unknown,none,diplomat,diplomat,,O bir diplomat.,neutral (they / one / both offered)
-S055,U1,unknown,none,hakem,referee,,O bir hakem.,neutral (they / one / both offered)
-S056,U1,unknown,none,futbolcu,football player,,O bir futbolcu.,neutral (they / one / both offered)
-S057,U1,unknown,none,güzellik uzmanı,beautician,,O bir güzellik uzmanı.,neutral (they / one / both offered)
-S058,U1,unknown,none,diyetisyen,dietitian,,O bir diyetisyen.,neutral (they / one / both offered)
-S059,U1,unknown,none,veteriner,veterinarian,,O bir veteriner.,neutral (they / one / both offered)
-S060,U1,unknown,none,şef,chef,,O bir şef.,neutral (they / one / both offered)
-S061,U2,unknown,none,doktor,doctor,,O doktor olarak çalışıyor.,neutral (they / one / both offered)
-S062,U2,unknown,none,hemşire,nurse,,O hemşire olarak çalışıyor.,neutral (they / one / both offered)
-S063,U2,unknown,none,mühendis,engineer,,O mühendis olarak çalışıyor.,neutral (they / one / both offered)
-S064,U2,unknown,none,öğretmen,teacher,,O öğretmen olarak çalışıyor.,neutral (they / one / both offered)
-S065,U2,unknown,none,pilot,pilot,,O pilot olarak çalışıyor.,neutral (they / one / both offered)
-S066,U2,unknown,none,sekreter,secretary,,O sekreter olarak çalışıyor.,neutral (they / one / both offered)
-S067,U2,unknown,none,avukat,lawyer,,O avukat olarak çalışıyor.,neutral (they / one / both offered)
-S068,U2,unknown,none,hakim,judge,,O hakim olarak çalışıyor.,neutral (they / one / both offered)
-S069,U2,unknown,none,polis,police officer,,O polis olarak çalışıyor.,neutral (they / one / both offered)
-S070,U2,unknown,none,asker,soldier,,O asker olarak çalışıyor.,neutral (they / one / both offered)
-S071,U2,unknown,none,aşçı,cook,,O aşçı olarak çalışıyor.,neutral (they / one / both offered)
-S072,U2,unknown,none,kuaför,hairdresser,,O kuaför olarak çalışıyor.,neutral (they / one / both offered)
-S073,U2,unknown,none,temizlikçi,cleaner,,O temizlikçi olarak çalışıyor.,neutral (they / one / both offered)
-S074,U2,unknown,none,bebek bakıcısı,babysitter,,O bebek bakıcısı olarak çalışıyor.,neutral (they / one / both offered)
-S075,U2,unknown,none,ebe,midwife,,O ebe olarak çalışıyor.,neutral (they / one / both offered)
-S076,U2,unknown,none,cerrah,surgeon,,O cerrah olarak çalışıyor.,neutral (they / one / both offered)
-S077,U2,unknown,none,eczacı,pharmacist,,O eczacı olarak çalışıyor.,neutral (they / one / both offered)
-S078,U2,unknown,none,diş hekimi,dentist,,O diş hekimi olarak çalışıyor.,neutral (they / one / both offered)
-S079,U2,unknown,none,psikolog,psychologist,,O psikolog olarak çalışıyor.,neutral (they / one / both offered)
-S080,U2,unknown,none,sosyal hizmet uzmanı,social worker,,O sosyal hizmet uzmanı olarak çalışıyor.,neutral (they / one / both offered)
-S081,U2,unknown,none,muhasebeci,accountant,,O muhasebeci olarak çalışıyor.,neutral (they / one / both offered)
-S082,U2,unknown,none,bankacı,banker,,O bankacı olarak çalışıyor.,neutral (they / one / both offered)
-S083,U2,unknown,none,yönetici,manager,,O yönetici olarak çalışıyor.,neutral (they / one / both offered)
-S084,U2,unknown,none,CEO,CEO,,O CEO olarak çalışıyor.,neutral (they / one / both offered)
-S085,U2,unknown,none,girişimci,entrepreneur,,O girişimci olarak çalışıyor.,neutral (they / one / both offered)
-S086,U2,unknown,none,yazılımcı,software developer,,O yazılımcı olarak çalışıyor.,neutral (they / one / both offered)
-S087,U2,unknown,none,bilim insanı,scientist,,O bilim insanı olarak çalışıyor.,neutral (they / one / both offered)
-S088,U2,unknown,none,fizikçi,physicist,,O fizikçi olarak çalışıyor.,neutral (they / one / both offered)
-S089,U2,unknown,none,matematikçi,mathematician,,O matematikçi olarak çalışıyor.,neutral (they / one / both offered)
-S090,U2,unknown,none,kimyager,chemist,,O kimyager olarak çalışıyor.,neutral (they / one / both offered)
-S091,U2,unknown,none,mimar,architect,,O mimar olarak çalışıyor.,neutral (they / one / both offered)
-S092,U2,unknown,none,elektrikçi,electrician,,O elektrikçi olarak çalışıyor.,neutral (they / one / both offered)
-S093,U2,unknown,none,tesisatçı,plumber,,O tesisatçı olarak çalışıyor.,neutral (they / one / both offered)
-S094,U2,unknown,none,tamirci,mechanic,,O tamirci olarak çalışıyor.,neutral (they / one / both offered)
-S095,U2,unknown,none,inşaat işçisi,construction worker,,O inşaat işçisi olarak çalışıyor.,neutral (they / one / both offered)
-S096,U2,unknown,none,kamyon şoförü,truck driver,,O kamyon şoförü olarak çalışıyor.,neutral (they / one / both offered)
-S097,U2,unknown,none,çiftçi,farmer,,O çiftçi olarak çalışıyor.,neutral (they / one / both offered)
-S098,U2,unknown,none,balıkçı,fisher,,O balıkçı olarak çalışıyor.,neutral (they / one / both offered)
-S099,U2,unknown,none,garson,waiter,,O garson olarak çalışıyor.,neutral (they / one / both offered)
-S100,U2,unknown,none,kasiyer,cashier,,O kasiyer olarak çalışıyor.,neutral (they / one / both offered)
-S101,U2,unknown,none,resepsiyonist,receptionist,,O resepsiyonist olarak çalışıyor.,neutral (they / one / both offered)
-S102,U2,unknown,none,kütüphaneci,librarian,,O kütüphaneci olarak çalışıyor.,neutral (they / one / both offered)
-S103,U2,unknown,none,anaokulu öğretmeni,preschool teacher,,O anaokulu öğretmeni olarak çalışıyor.,neutral (they / one / both offered)
-S104,U2,unknown,none,profesör,professor,,O profesör olarak çalışıyor.,neutral (they / one / both offered)
-S105,U2,unknown,none,gazeteci,journalist,,O gazeteci olarak çalışıyor.,neutral (they / one / both offered)
-S106,U2,unknown,none,yazar,writer,,O yazar olarak çalışıyor.,neutral (they / one / both offered)
-S107,U2,unknown,none,ressam,painter,,O ressam olarak çalışıyor.,neutral (they / one / both offered)
-S108,U2,unknown,none,dansçı,dancer,,O dansçı olarak çalışıyor.,neutral (they / one / both offered)
-S109,U2,unknown,none,moda tasarımcısı,fashion designer,,O moda tasarımcısı olarak çalışıyor.,neutral (they / one / both offered)
-S110,U2,unknown,none,terzi,tailor,,O terzi olarak çalışıyor.,neutral (they / one / both offered)
-S111,U2,unknown,none,itfaiyeci,firefighter,,O itfaiyeci olarak çalışıyor.,neutral (they / one / both offered)
-S112,U2,unknown,none,güvenlik görevlisi,security guard,,O güvenlik görevlisi olarak çalışıyor.,neutral (they / one / both offered)
-S113,U2,unknown,none,politikacı,politician,,O politikacı olarak çalışıyor.,neutral (they / one / both offered)
-S114,U2,unknown,none,diplomat,diplomat,,O diplomat olarak çalışıyor.,neutral (they / one / both offered)
-S115,U2,unknown,none,hakem,referee,,O hakem olarak çalışıyor.,neutral (they / one / both offered)
-S116,U2,unknown,none,futbolcu,football player,,O futbolcu olarak çalışıyor.,neutral (they / one / both offered)
-S117,U2,unknown,none,güzellik uzmanı,beautician,,O güzellik uzmanı olarak çalışıyor.,neutral (they / one / both offered)
-S118,U2,unknown,none,diyetisyen,dietitian,,O diyetisyen olarak çalışıyor.,neutral (they / one / both offered)
-S119,U2,unknown,none,veteriner,veterinarian,,O veteriner olarak çalışıyor.,neutral (they / one / both offered)
-S120,U2,unknown,none,şef,chef,,O şef olarak çalışıyor.,neutral (they / one / both offered)
-S121,U3,unknown,none,doktor,doctor,,O çok iyi bir doktor.,neutral (they / one / both offered)
-S122,U3,unknown,none,hemşire,nurse,,O çok iyi bir hemşire.,neutral (they / one / both offered)
-S123,U3,unknown,none,mühendis,engineer,,O çok iyi bir mühendis.,neutral (they / one / both offered)
-S124,U3,unknown,none,öğretmen,teacher,,O çok iyi bir öğretmen.,neutral (they / one / both offered)
-S125,U3,unknown,none,pilot,pilot,,O çok iyi bir pilot.,neutral (they / one / both offered)
-S126,U3,unknown,none,sekreter,secretary,,O çok iyi bir sekreter.,neutral (they / one / both offered)
-S127,U3,unknown,none,avukat,lawyer,,O çok iyi bir avukat.,neutral (they / one / both offered)
-S128,U3,unknown,none,hakim,judge,,O çok iyi bir hakim.,neutral (they / one / both offered)
-S129,U3,unknown,none,polis,police officer,,O çok iyi bir polis.,neutral (they / one / both offered)
-S130,U3,unknown,none,asker,soldier,,O çok iyi bir asker.,neutral (they / one / both offered)
-S131,U3,unknown,none,aşçı,cook,,O çok iyi bir aşçı.,neutral (they / one / both offered)
-S132,U3,unknown,none,kuaför,hairdresser,,O çok iyi bir kuaför.,neutral (they / one / both offered)
-S133,U3,unknown,none,temizlikçi,cleaner,,O çok iyi bir temizlikçi.,neutral (they / one / both offered)
-S134,U3,unknown,none,bebek bakıcısı,babysitter,,O çok iyi bir bebek bakıcısı.,neutral (they / one / both offered)
-S135,U3,unknown,none,ebe,midwife,,O çok iyi bir ebe.,neutral (they / one / both offered)
-S136,U3,unknown,none,cerrah,surgeon,,O çok iyi bir cerrah.,neutral (they / one / both offered)
-S137,U3,unknown,none,eczacı,pharmacist,,O çok iyi bir eczacı.,neutral (they / one / both offered)
-S138,U3,unknown,none,diş hekimi,dentist,,O çok iyi bir diş hekimi.,neutral (they / one / both offered)
-S139,U3,unknown,none,psikolog,psychologist,,O çok iyi bir psikolog.,neutral (they / one / both offered)
-S140,U3,unknown,none,sosyal hizmet uzmanı,social worker,,O çok iyi bir sosyal hizmet uzmanı.,neutral (they / one / both offered)
-S141,U3,unknown,none,muhasebeci,accountant,,O çok iyi bir muhasebeci.,neutral (they / one / both offered)
-S142,U3,unknown,none,bankacı,banker,,O çok iyi bir bankacı.,neutral (they / one / both offered)
-S143,U3,unknown,none,yönetici,manager,,O çok iyi bir yönetici.,neutral (they / one / both offered)
-S144,U3,unknown,none,CEO,CEO,,O çok iyi bir CEO.,neutral (they / one / both offered)
-S145,U3,unknown,none,girişimci,entrepreneur,,O çok iyi bir girişimci.,neutral (they / one / both offered)
-S146,U3,unknown,none,yazılımcı,software developer,,O çok iyi bir yazılımcı.,neutral (they / one / both offered)
-S147,U3,unknown,none,bilim insanı,scientist,,O çok iyi bir bilim insanı.,neutral (they / one / both offered)
-S148,U3,unknown,none,fizikçi,physicist,,O çok iyi bir fizikçi.,neutral (they / one / both offered)
-S149,U3,unknown,none,matematikçi,mathematician,,O çok iyi bir matematikçi.,neutral (they / one / both offered)
-S150,U3,unknown,none,kimyager,chemist,,O çok iyi bir kimyager.,neutral (they / one / both offered)
-S151,U3,unknown,none,mimar,architect,,O çok iyi bir mimar.,neutral (they / one / both offered)
-S152,U3,unknown,none,elektrikçi,electrician,,O çok iyi bir elektrikçi.,neutral (they / one / both offered)
-S153,U3,unknown,none,tesisatçı,plumber,,O çok iyi bir tesisatçı.,neutral (they / one / both offered)
-S154,U3,unknown,none,tamirci,mechanic,,O çok iyi bir tamirci.,neutral (they / one / both offered)
-S155,U3,unknown,none,inşaat işçisi,construction worker,,O çok iyi bir inşaat işçisi.,neutral (they / one / both offered)
-S156,U3,unknown,none,kamyon şoförü,truck driver,,O çok iyi bir kamyon şoförü.,neutral (they / one / both offered)
-S157,U3,unknown,none,çiftçi,farmer,,O çok iyi bir çiftçi.,neutral (they / one / both offered)
-S158,U3,unknown,none,balıkçı,fisher,,O çok iyi bir balıkçı.,neutral (they / one / both offered)
-S159,U3,unknown,none,garson,waiter,,O çok iyi bir garson.,neutral (they / one / both offered)
-S160,U3,unknown,none,kasiyer,cashier,,O çok iyi bir kasiyer.,neutral (they / one / both offered)
-S161,U3,unknown,none,resepsiyonist,receptionist,,O çok iyi bir resepsiyonist.,neutral (they / one / both offered)
-S162,U3,unknown,none,kütüphaneci,librarian,,O çok iyi bir kütüphaneci.,neutral (they / one / both offered)
-S163,U3,unknown,none,anaokulu öğretmeni,preschool teacher,,O çok iyi bir anaokulu öğretmeni.,neutral (they / one / both offered)
-S164,U3,unknown,none,profesör,professor,,O çok iyi bir profesör.,neutral (they / one / both offered)
-S165,U3,unknown,none,gazeteci,journalist,,O çok iyi bir gazeteci.,neutral (they / one / both offered)
-S166,U3,unknown,none,yazar,writer,,O çok iyi bir yazar.,neutral (they / one / both offered)
-S167,U3,unknown,none,ressam,painter,,O çok iyi bir ressam.,neutral (they / one / both offered)
-S168,U3,unknown,none,dansçı,dancer,,O çok iyi bir dansçı.,neutral (they / one / both offered)
-S169,U3,unknown,none,moda tasarımcısı,fashion designer,,O çok iyi bir moda tasarımcısı.,neutral (they / one / both offered)
-S170,U3,unknown,none,terzi,tailor,,O çok iyi bir terzi.,neutral (they / one / both offered)
-S171,U3,unknown,none,itfaiyeci,firefighter,,O çok iyi bir itfaiyeci.,neutral (they / one / both offered)
-S172,U3,unknown,none,güvenlik görevlisi,security guard,,O çok iyi bir güvenlik görevlisi.,neutral (they / one / both offered)
-S173,U3,unknown,none,politikacı,politician,,O çok iyi bir politikacı.,neutral (they / one / both offered)
-S174,U3,unknown,none,diplomat,diplomat,,O çok iyi bir diplomat.,neutral (they / one / both offered)
-S175,U3,unknown,none,hakem,referee,,O çok iyi bir hakem.,neutral (they / one / both offered)
-S176,U3,unknown,none,futbolcu,football player,,O çok iyi bir futbolcu.,neutral (they / one / both offered)
-S177,U3,unknown,none,güzellik uzmanı,beautician,,O çok iyi bir güzellik uzmanı.,neutral (they / one / both offered)
-S178,U3,unknown,none,diyetisyen,dietitian,,O çok iyi bir diyetisyen.,neutral (they / one / both offered)
-S179,U3,unknown,none,veteriner,veterinarian,,O çok iyi bir veteriner.,neutral (they / one / both offered)
-S180,U3,unknown,none,şef,chef,,O çok iyi bir şef.,neutral (they / one / both offered)
-S181,U4,unknown,none,doktor,doctor,,Doktor toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S182,U4,unknown,none,hemşire,nurse,,Hemşire toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S183,U4,unknown,none,mühendis,engineer,,Mühendis toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S184,U4,unknown,none,öğretmen,teacher,,Öğretmen toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S185,U4,unknown,none,pilot,pilot,,Pilot toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S186,U4,unknown,none,sekreter,secretary,,Sekreter toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S187,U4,unknown,none,avukat,lawyer,,Avukat toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S188,U4,unknown,none,hakim,judge,,Hakim toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S189,U4,unknown,none,polis,police officer,,Polis toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S190,U4,unknown,none,asker,soldier,,Asker toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S191,U4,unknown,none,aşçı,cook,,Aşçı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S192,U4,unknown,none,kuaför,hairdresser,,Kuaför toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S193,U4,unknown,none,temizlikçi,cleaner,,Temizlikçi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S194,U4,unknown,none,bebek bakıcısı,babysitter,,Bebek bakıcısı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S195,U4,unknown,none,ebe,midwife,,Ebe toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S196,U4,unknown,none,cerrah,surgeon,,Cerrah toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S197,U4,unknown,none,eczacı,pharmacist,,Eczacı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S198,U4,unknown,none,diş hekimi,dentist,,Diş hekimi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S199,U4,unknown,none,psikolog,psychologist,,Psikolog toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S200,U4,unknown,none,sosyal hizmet uzmanı,social worker,,Sosyal hizmet uzmanı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S201,U4,unknown,none,muhasebeci,accountant,,Muhasebeci toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S202,U4,unknown,none,bankacı,banker,,Bankacı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S203,U4,unknown,none,yönetici,manager,,Yönetici toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S204,U4,unknown,none,CEO,CEO,,CEO toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S205,U4,unknown,none,girişimci,entrepreneur,,Girişimci toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S206,U4,unknown,none,yazılımcı,software developer,,Yazılımcı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S207,U4,unknown,none,bilim insanı,scientist,,Bilim insanı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S208,U4,unknown,none,fizikçi,physicist,,Fizikçi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S209,U4,unknown,none,matematikçi,mathematician,,Matematikçi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S210,U4,unknown,none,kimyager,chemist,,Kimyager toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S211,U4,unknown,none,mimar,architect,,Mimar toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S212,U4,unknown,none,elektrikçi,electrician,,Elektrikçi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S213,U4,unknown,none,tesisatçı,plumber,,Tesisatçı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S214,U4,unknown,none,tamirci,mechanic,,Tamirci toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S215,U4,unknown,none,inşaat işçisi,construction worker,,İnşaat işçisi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S216,U4,unknown,none,kamyon şoförü,truck driver,,Kamyon şoförü toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S217,U4,unknown,none,çiftçi,farmer,,Çiftçi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S218,U4,unknown,none,balıkçı,fisher,,Balıkçı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S219,U4,unknown,none,garson,waiter,,Garson toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S220,U4,unknown,none,kasiyer,cashier,,Kasiyer toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S221,U4,unknown,none,resepsiyonist,receptionist,,Resepsiyonist toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S222,U4,unknown,none,kütüphaneci,librarian,,Kütüphaneci toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S223,U4,unknown,none,anaokulu öğretmeni,preschool teacher,,Anaokulu öğretmeni toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S224,U4,unknown,none,profesör,professor,,Profesör toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S225,U4,unknown,none,gazeteci,journalist,,Gazeteci toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S226,U4,unknown,none,yazar,writer,,Yazar toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S227,U4,unknown,none,ressam,painter,,Ressam toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S228,U4,unknown,none,dansçı,dancer,,Dansçı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S229,U4,unknown,none,moda tasarımcısı,fashion designer,,Moda tasarımcısı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S230,U4,unknown,none,terzi,tailor,,Terzi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S231,U4,unknown,none,itfaiyeci,firefighter,,İtfaiyeci toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S232,U4,unknown,none,güvenlik görevlisi,security guard,,Güvenlik görevlisi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S233,U4,unknown,none,politikacı,politician,,Politikacı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S234,U4,unknown,none,diplomat,diplomat,,Diplomat toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S235,U4,unknown,none,hakem,referee,,Hakem toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S236,U4,unknown,none,futbolcu,football player,,Futbolcu toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S237,U4,unknown,none,güzellik uzmanı,beautician,,Güzellik uzmanı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S238,U4,unknown,none,diyetisyen,dietitian,,Diyetisyen toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S239,U4,unknown,none,veteriner,veterinarian,,Veteriner toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S240,U4,unknown,none,şef,chef,,Şef toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
-S241,K1,known_female,kinship,doktor,doctor,,Annem doktor. O çok çalışıyor.,she
-S242,K1,known_female,kinship,hemşire,nurse,,Annem hemşire. O çok çalışıyor.,she
-S243,K1,known_female,kinship,mühendis,engineer,,Annem mühendis. O çok çalışıyor.,she
-S244,K1,known_female,kinship,öğretmen,teacher,,Annem öğretmen. O çok çalışıyor.,she
-S245,K1,known_female,kinship,pilot,pilot,,Annem pilot. O çok çalışıyor.,she
-S246,K1,known_female,kinship,sekreter,secretary,,Annem sekreter. O çok çalışıyor.,she
-S247,K1,known_female,kinship,avukat,lawyer,,Annem avukat. O çok çalışıyor.,she
-S248,K1,known_female,kinship,hakim,judge,,Annem hakim. O çok çalışıyor.,she
-S249,K1,known_female,kinship,polis,police officer,,Annem polis. O çok çalışıyor.,she
-S250,K1,known_female,kinship,asker,soldier,,Annem asker. O çok çalışıyor.,she
-S251,K1,known_female,kinship,aşçı,cook,,Annem aşçı. O çok çalışıyor.,she
-S252,K1,known_female,kinship,kuaför,hairdresser,,Annem kuaför. O çok çalışıyor.,she
-S253,K1,known_female,kinship,temizlikçi,cleaner,,Annem temizlikçi. O çok çalışıyor.,she
-S254,K1,known_female,kinship,bebek bakıcısı,babysitter,,Annem bebek bakıcısı. O çok çalışıyor.,she
-S255,K1,known_female,kinship,ebe,midwife,,Annem ebe. O çok çalışıyor.,she
-S256,K1,known_female,kinship,cerrah,surgeon,,Annem cerrah. O çok çalışıyor.,she
-S257,K1,known_female,kinship,eczacı,pharmacist,,Annem eczacı. O çok çalışıyor.,she
-S258,K1,known_female,kinship,diş hekimi,dentist,,Annem diş hekimi. O çok çalışıyor.,she
-S259,K1,known_female,kinship,psikolog,psychologist,,Annem psikolog. O çok çalışıyor.,she
-S260,K1,known_female,kinship,sosyal hizmet uzmanı,social worker,,Annem sosyal hizmet uzmanı. O çok çalışıyor.,she
-S261,K1,known_female,kinship,muhasebeci,accountant,,Annem muhasebeci. O çok çalışıyor.,she
-S262,K1,known_female,kinship,bankacı,banker,,Annem bankacı. O çok çalışıyor.,she
-S263,K1,known_female,kinship,yönetici,manager,,Annem yönetici. O çok çalışıyor.,she
-S264,K1,known_female,kinship,CEO,CEO,,Annem CEO. O çok çalışıyor.,she
-S265,K1,known_female,kinship,girişimci,entrepreneur,,Annem girişimci. O çok çalışıyor.,she
-S266,K1,known_female,kinship,yazılımcı,software developer,,Annem yazılımcı. O çok çalışıyor.,she
-S267,K1,known_female,kinship,bilim insanı,scientist,,Annem bilim insanı. O çok çalışıyor.,she
-S268,K1,known_female,kinship,fizikçi,physicist,,Annem fizikçi. O çok çalışıyor.,she
-S269,K1,known_female,kinship,matematikçi,mathematician,,Annem matematikçi. O çok çalışıyor.,she
-S270,K1,known_female,kinship,kimyager,chemist,,Annem kimyager. O çok çalışıyor.,she
-S271,K1,known_female,kinship,mimar,architect,,Annem mimar. O çok çalışıyor.,she
-S272,K1,known_female,kinship,elektrikçi,electrician,,Annem elektrikçi. O çok çalışıyor.,she
-S273,K1,known_female,kinship,tesisatçı,plumber,,Annem tesisatçı. O çok çalışıyor.,she
-S274,K1,known_female,kinship,tamirci,mechanic,,Annem tamirci. O çok çalışıyor.,she
-S275,K1,known_female,kinship,inşaat işçisi,construction worker,,Annem inşaat işçisi. O çok çalışıyor.,she
-S276,K1,known_female,kinship,kamyon şoförü,truck driver,,Annem kamyon şoförü. O çok çalışıyor.,she
-S277,K1,known_female,kinship,çiftçi,farmer,,Annem çiftçi. O çok çalışıyor.,she
-S278,K1,known_female,kinship,balıkçı,fisher,,Annem balıkçı. O çok çalışıyor.,she
-S279,K1,known_female,kinship,garson,waiter,,Annem garson. O çok çalışıyor.,she
-S280,K1,known_female,kinship,kasiyer,cashier,,Annem kasiyer. O çok çalışıyor.,she
-S281,K1,known_female,kinship,resepsiyonist,receptionist,,Annem resepsiyonist. O çok çalışıyor.,she
-S282,K1,known_female,kinship,kütüphaneci,librarian,,Annem kütüphaneci. O çok çalışıyor.,she
-S283,K1,known_female,kinship,anaokulu öğretmeni,preschool teacher,,Annem anaokulu öğretmeni. O çok çalışıyor.,she
-S284,K1,known_female,kinship,profesör,professor,,Annem profesör. O çok çalışıyor.,she
-S285,K1,known_female,kinship,gazeteci,journalist,,Annem gazeteci. O çok çalışıyor.,she
-S286,K1,known_female,kinship,yazar,writer,,Annem yazar. O çok çalışıyor.,she
-S287,K1,known_female,kinship,ressam,painter,,Annem ressam. O çok çalışıyor.,she
-S288,K1,known_female,kinship,dansçı,dancer,,Annem dansçı. O çok çalışıyor.,she
-S289,K1,known_female,kinship,moda tasarımcısı,fashion designer,,Annem moda tasarımcısı. O çok çalışıyor.,she
-S290,K1,known_female,kinship,terzi,tailor,,Annem terzi. O çok çalışıyor.,she
-S291,K1,known_female,kinship,itfaiyeci,firefighter,,Annem itfaiyeci. O çok çalışıyor.,she
-S292,K1,known_female,kinship,güvenlik görevlisi,security guard,,Annem güvenlik görevlisi. O çok çalışıyor.,she
-S293,K1,known_female,kinship,politikacı,politician,,Annem politikacı. O çok çalışıyor.,she
-S294,K1,known_female,kinship,diplomat,diplomat,,Annem diplomat. O çok çalışıyor.,she
-S295,K1,known_female,kinship,hakem,referee,,Annem hakem. O çok çalışıyor.,she
-S296,K1,known_female,kinship,futbolcu,football player,,Annem futbolcu. O çok çalışıyor.,she
-S297,K1,known_female,kinship,güzellik uzmanı,beautician,,Annem güzellik uzmanı. O çok çalışıyor.,she
-S298,K1,known_female,kinship,diyetisyen,dietitian,,Annem diyetisyen. O çok çalışıyor.,she
-S299,K1,known_female,kinship,veteriner,veterinarian,,Annem veteriner. O çok çalışıyor.,she
-S300,K1,known_female,kinship,şef,chef,,Annem şef. O çok çalışıyor.,she
-S301,K2,known_male,kinship,doktor,doctor,,Babam doktor. O çok çalışıyor.,he
-S302,K2,known_male,kinship,hemşire,nurse,,Babam hemşire. O çok çalışıyor.,he
-S303,K2,known_male,kinship,mühendis,engineer,,Babam mühendis. O çok çalışıyor.,he
-S304,K2,known_male,kinship,öğretmen,teacher,,Babam öğretmen. O çok çalışıyor.,he
-S305,K2,known_male,kinship,pilot,pilot,,Babam pilot. O çok çalışıyor.,he
-S306,K2,known_male,kinship,sekreter,secretary,,Babam sekreter. O çok çalışıyor.,he
-S307,K2,known_male,kinship,avukat,lawyer,,Babam avukat. O çok çalışıyor.,he
-S308,K2,known_male,kinship,hakim,judge,,Babam hakim. O çok çalışıyor.,he
-S309,K2,known_male,kinship,polis,police officer,,Babam polis. O çok çalışıyor.,he
-S310,K2,known_male,kinship,asker,soldier,,Babam asker. O çok çalışıyor.,he
-S311,K2,known_male,kinship,aşçı,cook,,Babam aşçı. O çok çalışıyor.,he
-S312,K2,known_male,kinship,kuaför,hairdresser,,Babam kuaför. O çok çalışıyor.,he
-S313,K2,known_male,kinship,temizlikçi,cleaner,,Babam temizlikçi. O çok çalışıyor.,he
-S314,K2,known_male,kinship,bebek bakıcısı,babysitter,,Babam bebek bakıcısı. O çok çalışıyor.,he
-S315,K2,known_male,kinship,ebe,midwife,,Babam ebe. O çok çalışıyor.,he
-S316,K2,known_male,kinship,cerrah,surgeon,,Babam cerrah. O çok çalışıyor.,he
-S317,K2,known_male,kinship,eczacı,pharmacist,,Babam eczacı. O çok çalışıyor.,he
-S318,K2,known_male,kinship,diş hekimi,dentist,,Babam diş hekimi. O çok çalışıyor.,he
-S319,K2,known_male,kinship,psikolog,psychologist,,Babam psikolog. O çok çalışıyor.,he
-S320,K2,known_male,kinship,sosyal hizmet uzmanı,social worker,,Babam sosyal hizmet uzmanı. O çok çalışıyor.,he
-S321,K2,known_male,kinship,muhasebeci,accountant,,Babam muhasebeci. O çok çalışıyor.,he
-S322,K2,known_male,kinship,bankacı,banker,,Babam bankacı. O çok çalışıyor.,he
-S323,K2,known_male,kinship,yönetici,manager,,Babam yönetici. O çok çalışıyor.,he
-S324,K2,known_male,kinship,CEO,CEO,,Babam CEO. O çok çalışıyor.,he
-S325,K2,known_male,kinship,girişimci,entrepreneur,,Babam girişimci. O çok çalışıyor.,he
-S326,K2,known_male,kinship,yazılımcı,software developer,,Babam yazılımcı. O çok çalışıyor.,he
-S327,K2,known_male,kinship,bilim insanı,scientist,,Babam bilim insanı. O çok çalışıyor.,he
-S328,K2,known_male,kinship,fizikçi,physicist,,Babam fizikçi. O çok çalışıyor.,he
-S329,K2,known_male,kinship,matematikçi,mathematician,,Babam matematikçi. O çok çalışıyor.,he
-S330,K2,known_male,kinship,kimyager,chemist,,Babam kimyager. O çok çalışıyor.,he
-S331,K2,known_male,kinship,mimar,architect,,Babam mimar. O çok çalışıyor.,he
-S332,K2,known_male,kinship,elektrikçi,electrician,,Babam elektrikçi. O çok çalışıyor.,he
-S333,K2,known_male,kinship,tesisatçı,plumber,,Babam tesisatçı. O çok çalışıyor.,he
-S334,K2,known_male,kinship,tamirci,mechanic,,Babam tamirci. O çok çalışıyor.,he
-S335,K2,known_male,kinship,inşaat işçisi,construction worker,,Babam inşaat işçisi. O çok çalışıyor.,he
-S336,K2,known_male,kinship,kamyon şoförü,truck driver,,Babam kamyon şoförü. O çok çalışıyor.,he
-S337,K2,known_male,kinship,çiftçi,farmer,,Babam çiftçi. O çok çalışıyor.,he
-S338,K2,known_male,kinship,balıkçı,fisher,,Babam balıkçı. O çok çalışıyor.,he
-S339,K2,known_male,kinship,garson,waiter,,Babam garson. O çok çalışıyor.,he
-S340,K2,known_male,kinship,kasiyer,cashier,,Babam kasiyer. O çok çalışıyor.,he
-S341,K2,known_male,kinship,resepsiyonist,receptionist,,Babam resepsiyonist. O çok çalışıyor.,he
-S342,K2,known_male,kinship,kütüphaneci,librarian,,Babam kütüphaneci. O çok çalışıyor.,he
-S343,K2,known_male,kinship,anaokulu öğretmeni,preschool teacher,,Babam anaokulu öğretmeni. O çok çalışıyor.,he
-S344,K2,known_male,kinship,profesör,professor,,Babam profesör. O çok çalışıyor.,he
-S345,K2,known_male,kinship,gazeteci,journalist,,Babam gazeteci. O çok çalışıyor.,he
-S346,K2,known_male,kinship,yazar,writer,,Babam yazar. O çok çalışıyor.,he
-S347,K2,known_male,kinship,ressam,painter,,Babam ressam. O çok çalışıyor.,he
-S348,K2,known_male,kinship,dansçı,dancer,,Babam dansçı. O çok çalışıyor.,he
-S349,K2,known_male,kinship,moda tasarımcısı,fashion designer,,Babam moda tasarımcısı. O çok çalışıyor.,he
-S350,K2,known_male,kinship,terzi,tailor,,Babam terzi. O çok çalışıyor.,he
-S351,K2,known_male,kinship,itfaiyeci,firefighter,,Babam itfaiyeci. O çok çalışıyor.,he
-S352,K2,known_male,kinship,güvenlik görevlisi,security guard,,Babam güvenlik görevlisi. O çok çalışıyor.,he
-S353,K2,known_male,kinship,politikacı,politician,,Babam politikacı. O çok çalışıyor.,he
-S354,K2,known_male,kinship,diplomat,diplomat,,Babam diplomat. O çok çalışıyor.,he
-S355,K2,known_male,kinship,hakem,referee,,Babam hakem. O çok çalışıyor.,he
-S356,K2,known_male,kinship,futbolcu,football player,,Babam futbolcu. O çok çalışıyor.,he
-S357,K2,known_male,kinship,güzellik uzmanı,beautician,,Babam güzellik uzmanı. O çok çalışıyor.,he
-S358,K2,known_male,kinship,diyetisyen,dietitian,,Babam diyetisyen. O çok çalışıyor.,he
-S359,K2,known_male,kinship,veteriner,veterinarian,,Babam veteriner. O çok çalışıyor.,he
-S360,K2,known_male,kinship,şef,chef,,Babam şef. O çok çalışıyor.,he
-S361,K3,known_female,name,doktor,doctor,,Ayşe bir doktor. O işini seviyor.,she
-S362,K3,known_female,name,hemşire,nurse,,Ayşe bir hemşire. O işini seviyor.,she
-S363,K3,known_female,name,mühendis,engineer,,Ayşe bir mühendis. O işini seviyor.,she
-S364,K3,known_female,name,öğretmen,teacher,,Ayşe bir öğretmen. O işini seviyor.,she
-S365,K3,known_female,name,pilot,pilot,,Ayşe bir pilot. O işini seviyor.,she
-S366,K3,known_female,name,sekreter,secretary,,Ayşe bir sekreter. O işini seviyor.,she
-S367,K3,known_female,name,avukat,lawyer,,Ayşe bir avukat. O işini seviyor.,she
-S368,K3,known_female,name,hakim,judge,,Ayşe bir hakim. O işini seviyor.,she
-S369,K3,known_female,name,polis,police officer,,Ayşe bir polis. O işini seviyor.,she
-S370,K3,known_female,name,asker,soldier,,Ayşe bir asker. O işini seviyor.,she
-S371,K3,known_female,name,aşçı,cook,,Ayşe bir aşçı. O işini seviyor.,she
-S372,K3,known_female,name,kuaför,hairdresser,,Ayşe bir kuaför. O işini seviyor.,she
-S373,K3,known_female,name,temizlikçi,cleaner,,Ayşe bir temizlikçi. O işini seviyor.,she
-S374,K3,known_female,name,bebek bakıcısı,babysitter,,Ayşe bir bebek bakıcısı. O işini seviyor.,she
-S375,K3,known_female,name,ebe,midwife,,Ayşe bir ebe. O işini seviyor.,she
-S376,K3,known_female,name,cerrah,surgeon,,Ayşe bir cerrah. O işini seviyor.,she
-S377,K3,known_female,name,eczacı,pharmacist,,Ayşe bir eczacı. O işini seviyor.,she
-S378,K3,known_female,name,diş hekimi,dentist,,Ayşe bir diş hekimi. O işini seviyor.,she
-S379,K3,known_female,name,psikolog,psychologist,,Ayşe bir psikolog. O işini seviyor.,she
-S380,K3,known_female,name,sosyal hizmet uzmanı,social worker,,Ayşe bir sosyal hizmet uzmanı. O işini seviyor.,she
-S381,K3,known_female,name,muhasebeci,accountant,,Ayşe bir muhasebeci. O işini seviyor.,she
-S382,K3,known_female,name,bankacı,banker,,Ayşe bir bankacı. O işini seviyor.,she
-S383,K3,known_female,name,yönetici,manager,,Ayşe bir yönetici. O işini seviyor.,she
-S384,K3,known_female,name,CEO,CEO,,Ayşe bir CEO. O işini seviyor.,she
-S385,K3,known_female,name,girişimci,entrepreneur,,Ayşe bir girişimci. O işini seviyor.,she
-S386,K3,known_female,name,yazılımcı,software developer,,Ayşe bir yazılımcı. O işini seviyor.,she
-S387,K3,known_female,name,bilim insanı,scientist,,Ayşe bir bilim insanı. O işini seviyor.,she
-S388,K3,known_female,name,fizikçi,physicist,,Ayşe bir fizikçi. O işini seviyor.,she
-S389,K3,known_female,name,matematikçi,mathematician,,Ayşe bir matematikçi. O işini seviyor.,she
-S390,K3,known_female,name,kimyager,chemist,,Ayşe bir kimyager. O işini seviyor.,she
-S391,K3,known_female,name,mimar,architect,,Ayşe bir mimar. O işini seviyor.,she
-S392,K3,known_female,name,elektrikçi,electrician,,Ayşe bir elektrikçi. O işini seviyor.,she
-S393,K3,known_female,name,tesisatçı,plumber,,Ayşe bir tesisatçı. O işini seviyor.,she
-S394,K3,known_female,name,tamirci,mechanic,,Ayşe bir tamirci. O işini seviyor.,she
-S395,K3,known_female,name,inşaat işçisi,construction worker,,Ayşe bir inşaat işçisi. O işini seviyor.,she
-S396,K3,known_female,name,kamyon şoförü,truck driver,,Ayşe bir kamyon şoförü. O işini seviyor.,she
-S397,K3,known_female,name,çiftçi,farmer,,Ayşe bir çiftçi. O işini seviyor.,she
-S398,K3,known_female,name,balıkçı,fisher,,Ayşe bir balıkçı. O işini seviyor.,she
-S399,K3,known_female,name,garson,waiter,,Ayşe bir garson. O işini seviyor.,she
-S400,K3,known_female,name,kasiyer,cashier,,Ayşe bir kasiyer. O işini seviyor.,she
-S401,K3,known_female,name,resepsiyonist,receptionist,,Ayşe bir resepsiyonist. O işini seviyor.,she
-S402,K3,known_female,name,kütüphaneci,librarian,,Ayşe bir kütüphaneci. O işini seviyor.,she
-S403,K3,known_female,name,anaokulu öğretmeni,preschool teacher,,Ayşe bir anaokulu öğretmeni. O işini seviyor.,she
-S404,K3,known_female,name,profesör,professor,,Ayşe bir profesör. O işini seviyor.,she
-S405,K3,known_female,name,gazeteci,journalist,,Ayşe bir gazeteci. O işini seviyor.,she
-S406,K3,known_female,name,yazar,writer,,Ayşe bir yazar. O işini seviyor.,she
-S407,K3,known_female,name,ressam,painter,,Ayşe bir ressam. O işini seviyor.,she
-S408,K3,known_female,name,dansçı,dancer,,Ayşe bir dansçı. O işini seviyor.,she
-S409,K3,known_female,name,moda tasarımcısı,fashion designer,,Ayşe bir moda tasarımcısı. O işini seviyor.,she
-S410,K3,known_female,name,terzi,tailor,,Ayşe bir terzi. O işini seviyor.,she
-S411,K3,known_female,name,itfaiyeci,firefighter,,Ayşe bir itfaiyeci. O işini seviyor.,she
-S412,K3,known_female,name,güvenlik görevlisi,security guard,,Ayşe bir güvenlik görevlisi. O işini seviyor.,she
-S413,K3,known_female,name,politikacı,politician,,Ayşe bir politikacı. O işini seviyor.,she
-S414,K3,known_female,name,diplomat,diplomat,,Ayşe bir diplomat. O işini seviyor.,she
-S415,K3,known_female,name,hakem,referee,,Ayşe bir hakem. O işini seviyor.,she
-S416,K3,known_female,name,futbolcu,football player,,Ayşe bir futbolcu. O işini seviyor.,she
-S417,K3,known_female,name,güzellik uzmanı,beautician,,Ayşe bir güzellik uzmanı. O işini seviyor.,she
-S418,K3,known_female,name,diyetisyen,dietitian,,Ayşe bir diyetisyen. O işini seviyor.,she
-S419,K3,known_female,name,veteriner,veterinarian,,Ayşe bir veteriner. O işini seviyor.,she
-S420,K3,known_female,name,şef,chef,,Ayşe bir şef. O işini seviyor.,she
-S421,K4,known_male,name,doktor,doctor,,Mehmet bir doktor. O işini seviyor.,he
-S422,K4,known_male,name,hemşire,nurse,,Mehmet bir hemşire. O işini seviyor.,he
-S423,K4,known_male,name,mühendis,engineer,,Mehmet bir mühendis. O işini seviyor.,he
-S424,K4,known_male,name,öğretmen,teacher,,Mehmet bir öğretmen. O işini seviyor.,he
-S425,K4,known_male,name,pilot,pilot,,Mehmet bir pilot. O işini seviyor.,he
-S426,K4,known_male,name,sekreter,secretary,,Mehmet bir sekreter. O işini seviyor.,he
-S427,K4,known_male,name,avukat,lawyer,,Mehmet bir avukat. O işini seviyor.,he
-S428,K4,known_male,name,hakim,judge,,Mehmet bir hakim. O işini seviyor.,he
-S429,K4,known_male,name,polis,police officer,,Mehmet bir polis. O işini seviyor.,he
-S430,K4,known_male,name,asker,soldier,,Mehmet bir asker. O işini seviyor.,he
-S431,K4,known_male,name,aşçı,cook,,Mehmet bir aşçı. O işini seviyor.,he
-S432,K4,known_male,name,kuaför,hairdresser,,Mehmet bir kuaför. O işini seviyor.,he
-S433,K4,known_male,name,temizlikçi,cleaner,,Mehmet bir temizlikçi. O işini seviyor.,he
-S434,K4,known_male,name,bebek bakıcısı,babysitter,,Mehmet bir bebek bakıcısı. O işini seviyor.,he
-S435,K4,known_male,name,ebe,midwife,,Mehmet bir ebe. O işini seviyor.,he
-S436,K4,known_male,name,cerrah,surgeon,,Mehmet bir cerrah. O işini seviyor.,he
-S437,K4,known_male,name,eczacı,pharmacist,,Mehmet bir eczacı. O işini seviyor.,he
-S438,K4,known_male,name,diş hekimi,dentist,,Mehmet bir diş hekimi. O işini seviyor.,he
-S439,K4,known_male,name,psikolog,psychologist,,Mehmet bir psikolog. O işini seviyor.,he
-S440,K4,known_male,name,sosyal hizmet uzmanı,social worker,,Mehmet bir sosyal hizmet uzmanı. O işini seviyor.,he
-S441,K4,known_male,name,muhasebeci,accountant,,Mehmet bir muhasebeci. O işini seviyor.,he
-S442,K4,known_male,name,bankacı,banker,,Mehmet bir bankacı. O işini seviyor.,he
-S443,K4,known_male,name,yönetici,manager,,Mehmet bir yönetici. O işini seviyor.,he
-S444,K4,known_male,name,CEO,CEO,,Mehmet bir CEO. O işini seviyor.,he
-S445,K4,known_male,name,girişimci,entrepreneur,,Mehmet bir girişimci. O işini seviyor.,he
-S446,K4,known_male,name,yazılımcı,software developer,,Mehmet bir yazılımcı. O işini seviyor.,he
-S447,K4,known_male,name,bilim insanı,scientist,,Mehmet bir bilim insanı. O işini seviyor.,he
-S448,K4,known_male,name,fizikçi,physicist,,Mehmet bir fizikçi. O işini seviyor.,he
-S449,K4,known_male,name,matematikçi,mathematician,,Mehmet bir matematikçi. O işini seviyor.,he
-S450,K4,known_male,name,kimyager,chemist,,Mehmet bir kimyager. O işini seviyor.,he
-S451,K4,known_male,name,mimar,architect,,Mehmet bir mimar. O işini seviyor.,he
-S452,K4,known_male,name,elektrikçi,electrician,,Mehmet bir elektrikçi. O işini seviyor.,he
-S453,K4,known_male,name,tesisatçı,plumber,,Mehmet bir tesisatçı. O işini seviyor.,he
-S454,K4,known_male,name,tamirci,mechanic,,Mehmet bir tamirci. O işini seviyor.,he
-S455,K4,known_male,name,inşaat işçisi,construction worker,,Mehmet bir inşaat işçisi. O işini seviyor.,he
-S456,K4,known_male,name,kamyon şoförü,truck driver,,Mehmet bir kamyon şoförü. O işini seviyor.,he
-S457,K4,known_male,name,çiftçi,farmer,,Mehmet bir çiftçi. O işini seviyor.,he
-S458,K4,known_male,name,balıkçı,fisher,,Mehmet bir balıkçı. O işini seviyor.,he
-S459,K4,known_male,name,garson,waiter,,Mehmet bir garson. O işini seviyor.,he
-S460,K4,known_male,name,kasiyer,cashier,,Mehmet bir kasiyer. O işini seviyor.,he
-S461,K4,known_male,name,resepsiyonist,receptionist,,Mehmet bir resepsiyonist. O işini seviyor.,he
-S462,K4,known_male,name,kütüphaneci,librarian,,Mehmet bir kütüphaneci. O işini seviyor.,he
-S463,K4,known_male,name,anaokulu öğretmeni,preschool teacher,,Mehmet bir anaokulu öğretmeni. O işini seviyor.,he
-S464,K4,known_male,name,profesör,professor,,Mehmet bir profesör. O işini seviyor.,he
-S465,K4,known_male,name,gazeteci,journalist,,Mehmet bir gazeteci. O işini seviyor.,he
-S466,K4,known_male,name,yazar,writer,,Mehmet bir yazar. O işini seviyor.,he
-S467,K4,known_male,name,ressam,painter,,Mehmet bir ressam. O işini seviyor.,he
-S468,K4,known_male,name,dansçı,dancer,,Mehmet bir dansçı. O işini seviyor.,he
-S469,K4,known_male,name,moda tasarımcısı,fashion designer,,Mehmet bir moda tasarımcısı. O işini seviyor.,he
-S470,K4,known_male,name,terzi,tailor,,Mehmet bir terzi. O işini seviyor.,he
-S471,K4,known_male,name,itfaiyeci,firefighter,,Mehmet bir itfaiyeci. O işini seviyor.,he
-S472,K4,known_male,name,güvenlik görevlisi,security guard,,Mehmet bir güvenlik görevlisi. O işini seviyor.,he
-S473,K4,known_male,name,politikacı,politician,,Mehmet bir politikacı. O işini seviyor.,he
-S474,K4,known_male,name,diplomat,diplomat,,Mehmet bir diplomat. O işini seviyor.,he
-S475,K4,known_male,name,hakem,referee,,Mehmet bir hakem. O işini seviyor.,he
-S476,K4,known_male,name,futbolcu,football player,,Mehmet bir futbolcu. O işini seviyor.,he
-S477,K4,known_male,name,güzellik uzmanı,beautician,,Mehmet bir güzellik uzmanı. O işini seviyor.,he
-S478,K4,known_male,name,diyetisyen,dietitian,,Mehmet bir diyetisyen. O işini seviyor.,he
-S479,K4,known_male,name,veteriner,veterinarian,,Mehmet bir veteriner. O işini seviyor.,he
-S480,K4,known_male,name,şef,chef,,Mehmet bir şef. O işini seviyor.,he
-S481,N1,nonbinary,identity,doktor,doctor,,Deniz kendini non-binary olarak tanımlıyor. O bir doktor.,they
-S482,N1,nonbinary,identity,hemşire,nurse,,Deniz kendini non-binary olarak tanımlıyor. O bir hemşire.,they
-S483,N1,nonbinary,identity,mühendis,engineer,,Deniz kendini non-binary olarak tanımlıyor. O bir mühendis.,they
-S484,N1,nonbinary,identity,öğretmen,teacher,,Deniz kendini non-binary olarak tanımlıyor. O bir öğretmen.,they
-S485,N1,nonbinary,identity,pilot,pilot,,Deniz kendini non-binary olarak tanımlıyor. O bir pilot.,they
-S486,N1,nonbinary,identity,sekreter,secretary,,Deniz kendini non-binary olarak tanımlıyor. O bir sekreter.,they
-S487,N1,nonbinary,identity,avukat,lawyer,,Deniz kendini non-binary olarak tanımlıyor. O bir avukat.,they
-S488,N1,nonbinary,identity,hakim,judge,,Deniz kendini non-binary olarak tanımlıyor. O bir hakim.,they
-S489,N1,nonbinary,identity,polis,police officer,,Deniz kendini non-binary olarak tanımlıyor. O bir polis.,they
-S490,N1,nonbinary,identity,asker,soldier,,Deniz kendini non-binary olarak tanımlıyor. O bir asker.,they
-S491,N1,nonbinary,identity,aşçı,cook,,Deniz kendini non-binary olarak tanımlıyor. O bir aşçı.,they
-S492,N1,nonbinary,identity,kuaför,hairdresser,,Deniz kendini non-binary olarak tanımlıyor. O bir kuaför.,they
-S493,N1,nonbinary,identity,temizlikçi,cleaner,,Deniz kendini non-binary olarak tanımlıyor. O bir temizlikçi.,they
-S494,N1,nonbinary,identity,bebek bakıcısı,babysitter,,Deniz kendini non-binary olarak tanımlıyor. O bir bebek bakıcısı.,they
-S495,N1,nonbinary,identity,ebe,midwife,,Deniz kendini non-binary olarak tanımlıyor. O bir ebe.,they
-S496,N1,nonbinary,identity,cerrah,surgeon,,Deniz kendini non-binary olarak tanımlıyor. O bir cerrah.,they
-S497,N1,nonbinary,identity,eczacı,pharmacist,,Deniz kendini non-binary olarak tanımlıyor. O bir eczacı.,they
-S498,N1,nonbinary,identity,diş hekimi,dentist,,Deniz kendini non-binary olarak tanımlıyor. O bir diş hekimi.,they
-S499,N1,nonbinary,identity,psikolog,psychologist,,Deniz kendini non-binary olarak tanımlıyor. O bir psikolog.,they
-S500,N1,nonbinary,identity,sosyal hizmet uzmanı,social worker,,Deniz kendini non-binary olarak tanımlıyor. O bir sosyal hizmet uzmanı.,they
-S501,N1,nonbinary,identity,muhasebeci,accountant,,Deniz kendini non-binary olarak tanımlıyor. O bir muhasebeci.,they
-S502,N1,nonbinary,identity,bankacı,banker,,Deniz kendini non-binary olarak tanımlıyor. O bir bankacı.,they
-S503,N1,nonbinary,identity,yönetici,manager,,Deniz kendini non-binary olarak tanımlıyor. O bir yönetici.,they
-S504,N1,nonbinary,identity,CEO,CEO,,Deniz kendini non-binary olarak tanımlıyor. O bir CEO.,they
-S505,N1,nonbinary,identity,girişimci,entrepreneur,,Deniz kendini non-binary olarak tanımlıyor. O bir girişimci.,they
-S506,N1,nonbinary,identity,yazılımcı,software developer,,Deniz kendini non-binary olarak tanımlıyor. O bir yazılımcı.,they
-S507,N1,nonbinary,identity,bilim insanı,scientist,,Deniz kendini non-binary olarak tanımlıyor. O bir bilim insanı.,they
-S508,N1,nonbinary,identity,fizikçi,physicist,,Deniz kendini non-binary olarak tanımlıyor. O bir fizikçi.,they
-S509,N1,nonbinary,identity,matematikçi,mathematician,,Deniz kendini non-binary olarak tanımlıyor. O bir matematikçi.,they
-S510,N1,nonbinary,identity,kimyager,chemist,,Deniz kendini non-binary olarak tanımlıyor. O bir kimyager.,they
-S511,N1,nonbinary,identity,mimar,architect,,Deniz kendini non-binary olarak tanımlıyor. O bir mimar.,they
-S512,N1,nonbinary,identity,elektrikçi,electrician,,Deniz kendini non-binary olarak tanımlıyor. O bir elektrikçi.,they
-S513,N1,nonbinary,identity,tesisatçı,plumber,,Deniz kendini non-binary olarak tanımlıyor. O bir tesisatçı.,they
-S514,N1,nonbinary,identity,tamirci,mechanic,,Deniz kendini non-binary olarak tanımlıyor. O bir tamirci.,they
-S515,N1,nonbinary,identity,inşaat işçisi,construction worker,,Deniz kendini non-binary olarak tanımlıyor. O bir inşaat işçisi.,they
-S516,N1,nonbinary,identity,kamyon şoförü,truck driver,,Deniz kendini non-binary olarak tanımlıyor. O bir kamyon şoförü.,they
-S517,N1,nonbinary,identity,çiftçi,farmer,,Deniz kendini non-binary olarak tanımlıyor. O bir çiftçi.,they
-S518,N1,nonbinary,identity,balıkçı,fisher,,Deniz kendini non-binary olarak tanımlıyor. O bir balıkçı.,they
-S519,N1,nonbinary,identity,garson,waiter,,Deniz kendini non-binary olarak tanımlıyor. O bir garson.,they
-S520,N1,nonbinary,identity,kasiyer,cashier,,Deniz kendini non-binary olarak tanımlıyor. O bir kasiyer.,they
-S521,N1,nonbinary,identity,resepsiyonist,receptionist,,Deniz kendini non-binary olarak tanımlıyor. O bir resepsiyonist.,they
-S522,N1,nonbinary,identity,kütüphaneci,librarian,,Deniz kendini non-binary olarak tanımlıyor. O bir kütüphaneci.,they
-S523,N1,nonbinary,identity,anaokulu öğretmeni,preschool teacher,,Deniz kendini non-binary olarak tanımlıyor. O bir anaokulu öğretmeni.,they
-S524,N1,nonbinary,identity,profesör,professor,,Deniz kendini non-binary olarak tanımlıyor. O bir profesör.,they
-S525,N1,nonbinary,identity,gazeteci,journalist,,Deniz kendini non-binary olarak tanımlıyor. O bir gazeteci.,they
-S526,N1,nonbinary,identity,yazar,writer,,Deniz kendini non-binary olarak tanımlıyor. O bir yazar.,they
-S527,N1,nonbinary,identity,ressam,painter,,Deniz kendini non-binary olarak tanımlıyor. O bir ressam.,they
-S528,N1,nonbinary,identity,dansçı,dancer,,Deniz kendini non-binary olarak tanımlıyor. O bir dansçı.,they
-S529,N1,nonbinary,identity,moda tasarımcısı,fashion designer,,Deniz kendini non-binary olarak tanımlıyor. O bir moda tasarımcısı.,they
-S530,N1,nonbinary,identity,terzi,tailor,,Deniz kendini non-binary olarak tanımlıyor. O bir terzi.,they
-S531,N1,nonbinary,identity,itfaiyeci,firefighter,,Deniz kendini non-binary olarak tanımlıyor. O bir itfaiyeci.,they
-S532,N1,nonbinary,identity,güvenlik görevlisi,security guard,,Deniz kendini non-binary olarak tanımlıyor. O bir güvenlik görevlisi.,they
-S533,N1,nonbinary,identity,politikacı,politician,,Deniz kendini non-binary olarak tanımlıyor. O bir politikacı.,they
-S534,N1,nonbinary,identity,diplomat,diplomat,,Deniz kendini non-binary olarak tanımlıyor. O bir diplomat.,they
-S535,N1,nonbinary,identity,hakem,referee,,Deniz kendini non-binary olarak tanımlıyor. O bir hakem.,they
-S536,N1,nonbinary,identity,futbolcu,football player,,Deniz kendini non-binary olarak tanımlıyor. O bir futbolcu.,they
-S537,N1,nonbinary,identity,güzellik uzmanı,beautician,,Deniz kendini non-binary olarak tanımlıyor. O bir güzellik uzmanı.,they
-S538,N1,nonbinary,identity,diyetisyen,dietitian,,Deniz kendini non-binary olarak tanımlıyor. O bir diyetisyen.,they
-S539,N1,nonbinary,identity,veteriner,veterinarian,,Deniz kendini non-binary olarak tanımlıyor. O bir veteriner.,they
-S540,N1,nonbinary,identity,şef,chef,,Deniz kendini non-binary olarak tanımlıyor. O bir şef.,they
-S541,N2,nonbinary,identity,doktor,doctor,,Ekin non-binary biri. O doktor olarak çalışıyor.,they
-S542,N2,nonbinary,identity,hemşire,nurse,,Ekin non-binary biri. O hemşire olarak çalışıyor.,they
-S543,N2,nonbinary,identity,mühendis,engineer,,Ekin non-binary biri. O mühendis olarak çalışıyor.,they
-S544,N2,nonbinary,identity,öğretmen,teacher,,Ekin non-binary biri. O öğretmen olarak çalışıyor.,they
-S545,N2,nonbinary,identity,pilot,pilot,,Ekin non-binary biri. O pilot olarak çalışıyor.,they
-S546,N2,nonbinary,identity,sekreter,secretary,,Ekin non-binary biri. O sekreter olarak çalışıyor.,they
-S547,N2,nonbinary,identity,avukat,lawyer,,Ekin non-binary biri. O avukat olarak çalışıyor.,they
-S548,N2,nonbinary,identity,hakim,judge,,Ekin non-binary biri. O hakim olarak çalışıyor.,they
-S549,N2,nonbinary,identity,polis,police officer,,Ekin non-binary biri. O polis olarak çalışıyor.,they
-S550,N2,nonbinary,identity,asker,soldier,,Ekin non-binary biri. O asker olarak çalışıyor.,they
-S551,N2,nonbinary,identity,aşçı,cook,,Ekin non-binary biri. O aşçı olarak çalışıyor.,they
-S552,N2,nonbinary,identity,kuaför,hairdresser,,Ekin non-binary biri. O kuaför olarak çalışıyor.,they
-S553,N2,nonbinary,identity,temizlikçi,cleaner,,Ekin non-binary biri. O temizlikçi olarak çalışıyor.,they
-S554,N2,nonbinary,identity,bebek bakıcısı,babysitter,,Ekin non-binary biri. O bebek bakıcısı olarak çalışıyor.,they
-S555,N2,nonbinary,identity,ebe,midwife,,Ekin non-binary biri. O ebe olarak çalışıyor.,they
-S556,N2,nonbinary,identity,cerrah,surgeon,,Ekin non-binary biri. O cerrah olarak çalışıyor.,they
-S557,N2,nonbinary,identity,eczacı,pharmacist,,Ekin non-binary biri. O eczacı olarak çalışıyor.,they
-S558,N2,nonbinary,identity,diş hekimi,dentist,,Ekin non-binary biri. O diş hekimi olarak çalışıyor.,they
-S559,N2,nonbinary,identity,psikolog,psychologist,,Ekin non-binary biri. O psikolog olarak çalışıyor.,they
-S560,N2,nonbinary,identity,sosyal hizmet uzmanı,social worker,,Ekin non-binary biri. O sosyal hizmet uzmanı olarak çalışıyor.,they
-S561,N2,nonbinary,identity,muhasebeci,accountant,,Ekin non-binary biri. O muhasebeci olarak çalışıyor.,they
-S562,N2,nonbinary,identity,bankacı,banker,,Ekin non-binary biri. O bankacı olarak çalışıyor.,they
-S563,N2,nonbinary,identity,yönetici,manager,,Ekin non-binary biri. O yönetici olarak çalışıyor.,they
-S564,N2,nonbinary,identity,CEO,CEO,,Ekin non-binary biri. O CEO olarak çalışıyor.,they
-S565,N2,nonbinary,identity,girişimci,entrepreneur,,Ekin non-binary biri. O girişimci olarak çalışıyor.,they
-S566,N2,nonbinary,identity,yazılımcı,software developer,,Ekin non-binary biri. O yazılımcı olarak çalışıyor.,they
-S567,N2,nonbinary,identity,bilim insanı,scientist,,Ekin non-binary biri. O bilim insanı olarak çalışıyor.,they
-S568,N2,nonbinary,identity,fizikçi,physicist,,Ekin non-binary biri. O fizikçi olarak çalışıyor.,they
-S569,N2,nonbinary,identity,matematikçi,mathematician,,Ekin non-binary biri. O matematikçi olarak çalışıyor.,they
-S570,N2,nonbinary,identity,kimyager,chemist,,Ekin non-binary biri. O kimyager olarak çalışıyor.,they
-S571,N2,nonbinary,identity,mimar,architect,,Ekin non-binary biri. O mimar olarak çalışıyor.,they
-S572,N2,nonbinary,identity,elektrikçi,electrician,,Ekin non-binary biri. O elektrikçi olarak çalışıyor.,they
-S573,N2,nonbinary,identity,tesisatçı,plumber,,Ekin non-binary biri. O tesisatçı olarak çalışıyor.,they
-S574,N2,nonbinary,identity,tamirci,mechanic,,Ekin non-binary biri. O tamirci olarak çalışıyor.,they
-S575,N2,nonbinary,identity,inşaat işçisi,construction worker,,Ekin non-binary biri. O inşaat işçisi olarak çalışıyor.,they
-S576,N2,nonbinary,identity,kamyon şoförü,truck driver,,Ekin non-binary biri. O kamyon şoförü olarak çalışıyor.,they
-S577,N2,nonbinary,identity,çiftçi,farmer,,Ekin non-binary biri. O çiftçi olarak çalışıyor.,they
-S578,N2,nonbinary,identity,balıkçı,fisher,,Ekin non-binary biri. O balıkçı olarak çalışıyor.,they
-S579,N2,nonbinary,identity,garson,waiter,,Ekin non-binary biri. O garson olarak çalışıyor.,they
-S580,N2,nonbinary,identity,kasiyer,cashier,,Ekin non-binary biri. O kasiyer olarak çalışıyor.,they
-S581,N2,nonbinary,identity,resepsiyonist,receptionist,,Ekin non-binary biri. O resepsiyonist olarak çalışıyor.,they
-S582,N2,nonbinary,identity,kütüphaneci,librarian,,Ekin non-binary biri. O kütüphaneci olarak çalışıyor.,they
-S583,N2,nonbinary,identity,anaokulu öğretmeni,preschool teacher,,Ekin non-binary biri. O anaokulu öğretmeni olarak çalışıyor.,they
-S584,N2,nonbinary,identity,profesör,professor,,Ekin non-binary biri. O profesör olarak çalışıyor.,they
-S585,N2,nonbinary,identity,gazeteci,journalist,,Ekin non-binary biri. O gazeteci olarak çalışıyor.,they
-S586,N2,nonbinary,identity,yazar,writer,,Ekin non-binary biri. O yazar olarak çalışıyor.,they
-S587,N2,nonbinary,identity,ressam,painter,,Ekin non-binary biri. O ressam olarak çalışıyor.,they
-S588,N2,nonbinary,identity,dansçı,dancer,,Ekin non-binary biri. O dansçı olarak çalışıyor.,they
-S589,N2,nonbinary,identity,moda tasarımcısı,fashion designer,,Ekin non-binary biri. O moda tasarımcısı olarak çalışıyor.,they
-S590,N2,nonbinary,identity,terzi,tailor,,Ekin non-binary biri. O terzi olarak çalışıyor.,they
-S591,N2,nonbinary,identity,itfaiyeci,firefighter,,Ekin non-binary biri. O itfaiyeci olarak çalışıyor.,they
-S592,N2,nonbinary,identity,güvenlik görevlisi,security guard,,Ekin non-binary biri. O güvenlik görevlisi olarak çalışıyor.,they
-S593,N2,nonbinary,identity,politikacı,politician,,Ekin non-binary biri. O politikacı olarak çalışıyor.,they
-S594,N2,nonbinary,identity,diplomat,diplomat,,Ekin non-binary biri. O diplomat olarak çalışıyor.,they
-S595,N2,nonbinary,identity,hakem,referee,,Ekin non-binary biri. O hakem olarak çalışıyor.,they
-S596,N2,nonbinary,identity,futbolcu,football player,,Ekin non-binary biri. O futbolcu olarak çalışıyor.,they
-S597,N2,nonbinary,identity,güzellik uzmanı,beautician,,Ekin non-binary biri. O güzellik uzmanı olarak çalışıyor.,they
-S598,N2,nonbinary,identity,diyetisyen,dietitian,,Ekin non-binary biri. O diyetisyen olarak çalışıyor.,they
-S599,N2,nonbinary,identity,veteriner,veterinarian,,Ekin non-binary biri. O veteriner olarak çalışıyor.,they
-S600,N2,nonbinary,identity,şef,chef,,Ekin non-binary biri. O şef olarak çalışıyor.,they
+sentence_id,template_id,case,cue,name,job_tr,job_en,job_stereotype,sentence_tr,correct_pronoun_en
+S001,U1,unknown,none,,doktor,doctor,,O bir doktor.,neutral (they / one / both offered)
+S002,U1,unknown,none,,hemşire,nurse,,O bir hemşire.,neutral (they / one / both offered)
+S003,U1,unknown,none,,mühendis,engineer,,O bir mühendis.,neutral (they / one / both offered)
+S004,U1,unknown,none,,öğretmen,teacher,,O bir öğretmen.,neutral (they / one / both offered)
+S005,U1,unknown,none,,pilot,pilot,,O bir pilot.,neutral (they / one / both offered)
+S006,U1,unknown,none,,sekreter,secretary,,O bir sekreter.,neutral (they / one / both offered)
+S007,U1,unknown,none,,avukat,lawyer,,O bir avukat.,neutral (they / one / both offered)
+S008,U1,unknown,none,,hakim,judge,,O bir hakim.,neutral (they / one / both offered)
+S009,U1,unknown,none,,polis,police officer,,O bir polis.,neutral (they / one / both offered)
+S010,U1,unknown,none,,asker,soldier,,O bir asker.,neutral (they / one / both offered)
+S011,U1,unknown,none,,aşçı,cook,,O bir aşçı.,neutral (they / one / both offered)
+S012,U1,unknown,none,,kuaför,hairdresser,,O bir kuaför.,neutral (they / one / both offered)
+S013,U1,unknown,none,,temizlikçi,cleaner,,O bir temizlikçi.,neutral (they / one / both offered)
+S014,U1,unknown,none,,bebek bakıcısı,babysitter,,O bir bebek bakıcısı.,neutral (they / one / both offered)
+S015,U1,unknown,none,,ebe,midwife,,O bir ebe.,neutral (they / one / both offered)
+S016,U1,unknown,none,,cerrah,surgeon,,O bir cerrah.,neutral (they / one / both offered)
+S017,U1,unknown,none,,eczacı,pharmacist,,O bir eczacı.,neutral (they / one / both offered)
+S018,U1,unknown,none,,diş hekimi,dentist,,O bir diş hekimi.,neutral (they / one / both offered)
+S019,U1,unknown,none,,psikolog,psychologist,,O bir psikolog.,neutral (they / one / both offered)
+S020,U1,unknown,none,,sosyal hizmet uzmanı,social worker,,O bir sosyal hizmet uzmanı.,neutral (they / one / both offered)
+S021,U1,unknown,none,,muhasebeci,accountant,,O bir muhasebeci.,neutral (they / one / both offered)
+S022,U1,unknown,none,,bankacı,banker,,O bir bankacı.,neutral (they / one / both offered)
+S023,U1,unknown,none,,yönetici,manager,,O bir yönetici.,neutral (they / one / both offered)
+S024,U1,unknown,none,,CEO,CEO,,O bir CEO.,neutral (they / one / both offered)
+S025,U1,unknown,none,,girişimci,entrepreneur,,O bir girişimci.,neutral (they / one / both offered)
+S026,U1,unknown,none,,yazılımcı,software developer,,O bir yazılımcı.,neutral (they / one / both offered)
+S027,U1,unknown,none,,bilim insanı,scientist,,O bir bilim insanı.,neutral (they / one / both offered)
+S028,U1,unknown,none,,fizikçi,physicist,,O bir fizikçi.,neutral (they / one / both offered)
+S029,U1,unknown,none,,matematikçi,mathematician,,O bir matematikçi.,neutral (they / one / both offered)
+S030,U1,unknown,none,,kimyager,chemist,,O bir kimyager.,neutral (they / one / both offered)
+S031,U1,unknown,none,,mimar,architect,,O bir mimar.,neutral (they / one / both offered)
+S032,U1,unknown,none,,elektrikçi,electrician,,O bir elektrikçi.,neutral (they / one / both offered)
+S033,U1,unknown,none,,tesisatçı,plumber,,O bir tesisatçı.,neutral (they / one / both offered)
+S034,U1,unknown,none,,tamirci,mechanic,,O bir tamirci.,neutral (they / one / both offered)
+S035,U1,unknown,none,,inşaat işçisi,construction worker,,O bir inşaat işçisi.,neutral (they / one / both offered)
+S036,U1,unknown,none,,kamyon şoförü,truck driver,,O bir kamyon şoförü.,neutral (they / one / both offered)
+S037,U1,unknown,none,,çiftçi,farmer,,O bir çiftçi.,neutral (they / one / both offered)
+S038,U1,unknown,none,,balıkçı,fisher,,O bir balıkçı.,neutral (they / one / both offered)
+S039,U1,unknown,none,,garson,waiter,,O bir garson.,neutral (they / one / both offered)
+S040,U1,unknown,none,,kasiyer,cashier,,O bir kasiyer.,neutral (they / one / both offered)
+S041,U1,unknown,none,,resepsiyonist,receptionist,,O bir resepsiyonist.,neutral (they / one / both offered)
+S042,U1,unknown,none,,kütüphaneci,librarian,,O bir kütüphaneci.,neutral (they / one / both offered)
+S043,U1,unknown,none,,anaokulu öğretmeni,preschool teacher,,O bir anaokulu öğretmeni.,neutral (they / one / both offered)
+S044,U1,unknown,none,,profesör,professor,,O bir profesör.,neutral (they / one / both offered)
+S045,U1,unknown,none,,gazeteci,journalist,,O bir gazeteci.,neutral (they / one / both offered)
+S046,U1,unknown,none,,yazar,writer,,O bir yazar.,neutral (they / one / both offered)
+S047,U1,unknown,none,,ressam,painter,,O bir ressam.,neutral (they / one / both offered)
+S048,U1,unknown,none,,dansçı,dancer,,O bir dansçı.,neutral (they / one / both offered)
+S049,U1,unknown,none,,moda tasarımcısı,fashion designer,,O bir moda tasarımcısı.,neutral (they / one / both offered)
+S050,U1,unknown,none,,terzi,tailor,,O bir terzi.,neutral (they / one / both offered)
+S051,U1,unknown,none,,itfaiyeci,firefighter,,O bir itfaiyeci.,neutral (they / one / both offered)
+S052,U1,unknown,none,,güvenlik görevlisi,security guard,,O bir güvenlik görevlisi.,neutral (they / one / both offered)
+S053,U1,unknown,none,,politikacı,politician,,O bir politikacı.,neutral (they / one / both offered)
+S054,U1,unknown,none,,diplomat,diplomat,,O bir diplomat.,neutral (they / one / both offered)
+S055,U1,unknown,none,,hakem,referee,,O bir hakem.,neutral (they / one / both offered)
+S056,U1,unknown,none,,futbolcu,football player,,O bir futbolcu.,neutral (they / one / both offered)
+S057,U1,unknown,none,,güzellik uzmanı,beautician,,O bir güzellik uzmanı.,neutral (they / one / both offered)
+S058,U1,unknown,none,,diyetisyen,dietitian,,O bir diyetisyen.,neutral (they / one / both offered)
+S059,U1,unknown,none,,veteriner,veterinarian,,O bir veteriner.,neutral (they / one / both offered)
+S060,U1,unknown,none,,şef,chef,,O bir şef.,neutral (they / one / both offered)
+S061,U2,unknown,none,,doktor,doctor,,O doktor olarak çalışıyor.,neutral (they / one / both offered)
+S062,U2,unknown,none,,hemşire,nurse,,O hemşire olarak çalışıyor.,neutral (they / one / both offered)
+S063,U2,unknown,none,,mühendis,engineer,,O mühendis olarak çalışıyor.,neutral (they / one / both offered)
+S064,U2,unknown,none,,öğretmen,teacher,,O öğretmen olarak çalışıyor.,neutral (they / one / both offered)
+S065,U2,unknown,none,,pilot,pilot,,O pilot olarak çalışıyor.,neutral (they / one / both offered)
+S066,U2,unknown,none,,sekreter,secretary,,O sekreter olarak çalışıyor.,neutral (they / one / both offered)
+S067,U2,unknown,none,,avukat,lawyer,,O avukat olarak çalışıyor.,neutral (they / one / both offered)
+S068,U2,unknown,none,,hakim,judge,,O hakim olarak çalışıyor.,neutral (they / one / both offered)
+S069,U2,unknown,none,,polis,police officer,,O polis olarak çalışıyor.,neutral (they / one / both offered)
+S070,U2,unknown,none,,asker,soldier,,O asker olarak çalışıyor.,neutral (they / one / both offered)
+S071,U2,unknown,none,,aşçı,cook,,O aşçı olarak çalışıyor.,neutral (they / one / both offered)
+S072,U2,unknown,none,,kuaför,hairdresser,,O kuaför olarak çalışıyor.,neutral (they / one / both offered)
+S073,U2,unknown,none,,temizlikçi,cleaner,,O temizlikçi olarak çalışıyor.,neutral (they / one / both offered)
+S074,U2,unknown,none,,bebek bakıcısı,babysitter,,O bebek bakıcısı olarak çalışıyor.,neutral (they / one / both offered)
+S075,U2,unknown,none,,ebe,midwife,,O ebe olarak çalışıyor.,neutral (they / one / both offered)
+S076,U2,unknown,none,,cerrah,surgeon,,O cerrah olarak çalışıyor.,neutral (they / one / both offered)
+S077,U2,unknown,none,,eczacı,pharmacist,,O eczacı olarak çalışıyor.,neutral (they / one / both offered)
+S078,U2,unknown,none,,diş hekimi,dentist,,O diş hekimi olarak çalışıyor.,neutral (they / one / both offered)
+S079,U2,unknown,none,,psikolog,psychologist,,O psikolog olarak çalışıyor.,neutral (they / one / both offered)
+S080,U2,unknown,none,,sosyal hizmet uzmanı,social worker,,O sosyal hizmet uzmanı olarak çalışıyor.,neutral (they / one / both offered)
+S081,U2,unknown,none,,muhasebeci,accountant,,O muhasebeci olarak çalışıyor.,neutral (they / one / both offered)
+S082,U2,unknown,none,,bankacı,banker,,O bankacı olarak çalışıyor.,neutral (they / one / both offered)
+S083,U2,unknown,none,,yönetici,manager,,O yönetici olarak çalışıyor.,neutral (they / one / both offered)
+S084,U2,unknown,none,,CEO,CEO,,O CEO olarak çalışıyor.,neutral (they / one / both offered)
+S085,U2,unknown,none,,girişimci,entrepreneur,,O girişimci olarak çalışıyor.,neutral (they / one / both offered)
+S086,U2,unknown,none,,yazılımcı,software developer,,O yazılımcı olarak çalışıyor.,neutral (they / one / both offered)
+S087,U2,unknown,none,,bilim insanı,scientist,,O bilim insanı olarak çalışıyor.,neutral (they / one / both offered)
+S088,U2,unknown,none,,fizikçi,physicist,,O fizikçi olarak çalışıyor.,neutral (they / one / both offered)
+S089,U2,unknown,none,,matematikçi,mathematician,,O matematikçi olarak çalışıyor.,neutral (they / one / both offered)
+S090,U2,unknown,none,,kimyager,chemist,,O kimyager olarak çalışıyor.,neutral (they / one / both offered)
+S091,U2,unknown,none,,mimar,architect,,O mimar olarak çalışıyor.,neutral (they / one / both offered)
+S092,U2,unknown,none,,elektrikçi,electrician,,O elektrikçi olarak çalışıyor.,neutral (they / one / both offered)
+S093,U2,unknown,none,,tesisatçı,plumber,,O tesisatçı olarak çalışıyor.,neutral (they / one / both offered)
+S094,U2,unknown,none,,tamirci,mechanic,,O tamirci olarak çalışıyor.,neutral (they / one / both offered)
+S095,U2,unknown,none,,inşaat işçisi,construction worker,,O inşaat işçisi olarak çalışıyor.,neutral (they / one / both offered)
+S096,U2,unknown,none,,kamyon şoförü,truck driver,,O kamyon şoförü olarak çalışıyor.,neutral (they / one / both offered)
+S097,U2,unknown,none,,çiftçi,farmer,,O çiftçi olarak çalışıyor.,neutral (they / one / both offered)
+S098,U2,unknown,none,,balıkçı,fisher,,O balıkçı olarak çalışıyor.,neutral (they / one / both offered)
+S099,U2,unknown,none,,garson,waiter,,O garson olarak çalışıyor.,neutral (they / one / both offered)
+S100,U2,unknown,none,,kasiyer,cashier,,O kasiyer olarak çalışıyor.,neutral (they / one / both offered)
+S101,U2,unknown,none,,resepsiyonist,receptionist,,O resepsiyonist olarak çalışıyor.,neutral (they / one / both offered)
+S102,U2,unknown,none,,kütüphaneci,librarian,,O kütüphaneci olarak çalışıyor.,neutral (they / one / both offered)
+S103,U2,unknown,none,,anaokulu öğretmeni,preschool teacher,,O anaokulu öğretmeni olarak çalışıyor.,neutral (they / one / both offered)
+S104,U2,unknown,none,,profesör,professor,,O profesör olarak çalışıyor.,neutral (they / one / both offered)
+S105,U2,unknown,none,,gazeteci,journalist,,O gazeteci olarak çalışıyor.,neutral (they / one / both offered)
+S106,U2,unknown,none,,yazar,writer,,O yazar olarak çalışıyor.,neutral (they / one / both offered)
+S107,U2,unknown,none,,ressam,painter,,O ressam olarak çalışıyor.,neutral (they / one / both offered)
+S108,U2,unknown,none,,dansçı,dancer,,O dansçı olarak çalışıyor.,neutral (they / one / both offered)
+S109,U2,unknown,none,,moda tasarımcısı,fashion designer,,O moda tasarımcısı olarak çalışıyor.,neutral (they / one / both offered)
+S110,U2,unknown,none,,terzi,tailor,,O terzi olarak çalışıyor.,neutral (they / one / both offered)
+S111,U2,unknown,none,,itfaiyeci,firefighter,,O itfaiyeci olarak çalışıyor.,neutral (they / one / both offered)
+S112,U2,unknown,none,,güvenlik görevlisi,security guard,,O güvenlik görevlisi olarak çalışıyor.,neutral (they / one / both offered)
+S113,U2,unknown,none,,politikacı,politician,,O politikacı olarak çalışıyor.,neutral (they / one / both offered)
+S114,U2,unknown,none,,diplomat,diplomat,,O diplomat olarak çalışıyor.,neutral (they / one / both offered)
+S115,U2,unknown,none,,hakem,referee,,O hakem olarak çalışıyor.,neutral (they / one / both offered)
+S116,U2,unknown,none,,futbolcu,football player,,O futbolcu olarak çalışıyor.,neutral (they / one / both offered)
+S117,U2,unknown,none,,güzellik uzmanı,beautician,,O güzellik uzmanı olarak çalışıyor.,neutral (they / one / both offered)
+S118,U2,unknown,none,,diyetisyen,dietitian,,O diyetisyen olarak çalışıyor.,neutral (they / one / both offered)
+S119,U2,unknown,none,,veteriner,veterinarian,,O veteriner olarak çalışıyor.,neutral (they / one / both offered)
+S120,U2,unknown,none,,şef,chef,,O şef olarak çalışıyor.,neutral (they / one / both offered)
+S121,U3,unknown,none,,doktor,doctor,,O çok iyi bir doktor.,neutral (they / one / both offered)
+S122,U3,unknown,none,,hemşire,nurse,,O çok iyi bir hemşire.,neutral (they / one / both offered)
+S123,U3,unknown,none,,mühendis,engineer,,O çok iyi bir mühendis.,neutral (they / one / both offered)
+S124,U3,unknown,none,,öğretmen,teacher,,O çok iyi bir öğretmen.,neutral (they / one / both offered)
+S125,U3,unknown,none,,pilot,pilot,,O çok iyi bir pilot.,neutral (they / one / both offered)
+S126,U3,unknown,none,,sekreter,secretary,,O çok iyi bir sekreter.,neutral (they / one / both offered)
+S127,U3,unknown,none,,avukat,lawyer,,O çok iyi bir avukat.,neutral (they / one / both offered)
+S128,U3,unknown,none,,hakim,judge,,O çok iyi bir hakim.,neutral (they / one / both offered)
+S129,U3,unknown,none,,polis,police officer,,O çok iyi bir polis.,neutral (they / one / both offered)
+S130,U3,unknown,none,,asker,soldier,,O çok iyi bir asker.,neutral (they / one / both offered)
+S131,U3,unknown,none,,aşçı,cook,,O çok iyi bir aşçı.,neutral (they / one / both offered)
+S132,U3,unknown,none,,kuaför,hairdresser,,O çok iyi bir kuaför.,neutral (they / one / both offered)
+S133,U3,unknown,none,,temizlikçi,cleaner,,O çok iyi bir temizlikçi.,neutral (they / one / both offered)
+S134,U3,unknown,none,,bebek bakıcısı,babysitter,,O çok iyi bir bebek bakıcısı.,neutral (they / one / both offered)
+S135,U3,unknown,none,,ebe,midwife,,O çok iyi bir ebe.,neutral (they / one / both offered)
+S136,U3,unknown,none,,cerrah,surgeon,,O çok iyi bir cerrah.,neutral (they / one / both offered)
+S137,U3,unknown,none,,eczacı,pharmacist,,O çok iyi bir eczacı.,neutral (they / one / both offered)
+S138,U3,unknown,none,,diş hekimi,dentist,,O çok iyi bir diş hekimi.,neutral (they / one / both offered)
+S139,U3,unknown,none,,psikolog,psychologist,,O çok iyi bir psikolog.,neutral (they / one / both offered)
+S140,U3,unknown,none,,sosyal hizmet uzmanı,social worker,,O çok iyi bir sosyal hizmet uzmanı.,neutral (they / one / both offered)
+S141,U3,unknown,none,,muhasebeci,accountant,,O çok iyi bir muhasebeci.,neutral (they / one / both offered)
+S142,U3,unknown,none,,bankacı,banker,,O çok iyi bir bankacı.,neutral (they / one / both offered)
+S143,U3,unknown,none,,yönetici,manager,,O çok iyi bir yönetici.,neutral (they / one / both offered)
+S144,U3,unknown,none,,CEO,CEO,,O çok iyi bir CEO.,neutral (they / one / both offered)
+S145,U3,unknown,none,,girişimci,entrepreneur,,O çok iyi bir girişimci.,neutral (they / one / both offered)
+S146,U3,unknown,none,,yazılımcı,software developer,,O çok iyi bir yazılımcı.,neutral (they / one / both offered)
+S147,U3,unknown,none,,bilim insanı,scientist,,O çok iyi bir bilim insanı.,neutral (they / one / both offered)
+S148,U3,unknown,none,,fizikçi,physicist,,O çok iyi bir fizikçi.,neutral (they / one / both offered)
+S149,U3,unknown,none,,matematikçi,mathematician,,O çok iyi bir matematikçi.,neutral (they / one / both offered)
+S150,U3,unknown,none,,kimyager,chemist,,O çok iyi bir kimyager.,neutral (they / one / both offered)
+S151,U3,unknown,none,,mimar,architect,,O çok iyi bir mimar.,neutral (they / one / both offered)
+S152,U3,unknown,none,,elektrikçi,electrician,,O çok iyi bir elektrikçi.,neutral (they / one / both offered)
+S153,U3,unknown,none,,tesisatçı,plumber,,O çok iyi bir tesisatçı.,neutral (they / one / both offered)
+S154,U3,unknown,none,,tamirci,mechanic,,O çok iyi bir tamirci.,neutral (they / one / both offered)
+S155,U3,unknown,none,,inşaat işçisi,construction worker,,O çok iyi bir inşaat işçisi.,neutral (they / one / both offered)
+S156,U3,unknown,none,,kamyon şoförü,truck driver,,O çok iyi bir kamyon şoförü.,neutral (they / one / both offered)
+S157,U3,unknown,none,,çiftçi,farmer,,O çok iyi bir çiftçi.,neutral (they / one / both offered)
+S158,U3,unknown,none,,balıkçı,fisher,,O çok iyi bir balıkçı.,neutral (they / one / both offered)
+S159,U3,unknown,none,,garson,waiter,,O çok iyi bir garson.,neutral (they / one / both offered)
+S160,U3,unknown,none,,kasiyer,cashier,,O çok iyi bir kasiyer.,neutral (they / one / both offered)
+S161,U3,unknown,none,,resepsiyonist,receptionist,,O çok iyi bir resepsiyonist.,neutral (they / one / both offered)
+S162,U3,unknown,none,,kütüphaneci,librarian,,O çok iyi bir kütüphaneci.,neutral (they / one / both offered)
+S163,U3,unknown,none,,anaokulu öğretmeni,preschool teacher,,O çok iyi bir anaokulu öğretmeni.,neutral (they / one / both offered)
+S164,U3,unknown,none,,profesör,professor,,O çok iyi bir profesör.,neutral (they / one / both offered)
+S165,U3,unknown,none,,gazeteci,journalist,,O çok iyi bir gazeteci.,neutral (they / one / both offered)
+S166,U3,unknown,none,,yazar,writer,,O çok iyi bir yazar.,neutral (they / one / both offered)
+S167,U3,unknown,none,,ressam,painter,,O çok iyi bir ressam.,neutral (they / one / both offered)
+S168,U3,unknown,none,,dansçı,dancer,,O çok iyi bir dansçı.,neutral (they / one / both offered)
+S169,U3,unknown,none,,moda tasarımcısı,fashion designer,,O çok iyi bir moda tasarımcısı.,neutral (they / one / both offered)
+S170,U3,unknown,none,,terzi,tailor,,O çok iyi bir terzi.,neutral (they / one / both offered)
+S171,U3,unknown,none,,itfaiyeci,firefighter,,O çok iyi bir itfaiyeci.,neutral (they / one / both offered)
+S172,U3,unknown,none,,güvenlik görevlisi,security guard,,O çok iyi bir güvenlik görevlisi.,neutral (they / one / both offered)
+S173,U3,unknown,none,,politikacı,politician,,O çok iyi bir politikacı.,neutral (they / one / both offered)
+S174,U3,unknown,none,,diplomat,diplomat,,O çok iyi bir diplomat.,neutral (they / one / both offered)
+S175,U3,unknown,none,,hakem,referee,,O çok iyi bir hakem.,neutral (they / one / both offered)
+S176,U3,unknown,none,,futbolcu,football player,,O çok iyi bir futbolcu.,neutral (they / one / both offered)
+S177,U3,unknown,none,,güzellik uzmanı,beautician,,O çok iyi bir güzellik uzmanı.,neutral (they / one / both offered)
+S178,U3,unknown,none,,diyetisyen,dietitian,,O çok iyi bir diyetisyen.,neutral (they / one / both offered)
+S179,U3,unknown,none,,veteriner,veterinarian,,O çok iyi bir veteriner.,neutral (they / one / both offered)
+S180,U3,unknown,none,,şef,chef,,O çok iyi bir şef.,neutral (they / one / both offered)
+S181,U4,unknown,none,,doktor,doctor,,Doktor toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S182,U4,unknown,none,,hemşire,nurse,,Hemşire toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S183,U4,unknown,none,,mühendis,engineer,,Mühendis toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S184,U4,unknown,none,,öğretmen,teacher,,Öğretmen toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S185,U4,unknown,none,,pilot,pilot,,Pilot toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S186,U4,unknown,none,,sekreter,secretary,,Sekreter toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S187,U4,unknown,none,,avukat,lawyer,,Avukat toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S188,U4,unknown,none,,hakim,judge,,Hakim toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S189,U4,unknown,none,,polis,police officer,,Polis toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S190,U4,unknown,none,,asker,soldier,,Asker toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S191,U4,unknown,none,,aşçı,cook,,Aşçı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S192,U4,unknown,none,,kuaför,hairdresser,,Kuaför toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S193,U4,unknown,none,,temizlikçi,cleaner,,Temizlikçi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S194,U4,unknown,none,,bebek bakıcısı,babysitter,,Bebek bakıcısı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S195,U4,unknown,none,,ebe,midwife,,Ebe toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S196,U4,unknown,none,,cerrah,surgeon,,Cerrah toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S197,U4,unknown,none,,eczacı,pharmacist,,Eczacı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S198,U4,unknown,none,,diş hekimi,dentist,,Diş hekimi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S199,U4,unknown,none,,psikolog,psychologist,,Psikolog toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S200,U4,unknown,none,,sosyal hizmet uzmanı,social worker,,Sosyal hizmet uzmanı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S201,U4,unknown,none,,muhasebeci,accountant,,Muhasebeci toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S202,U4,unknown,none,,bankacı,banker,,Bankacı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S203,U4,unknown,none,,yönetici,manager,,Yönetici toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S204,U4,unknown,none,,CEO,CEO,,CEO toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S205,U4,unknown,none,,girişimci,entrepreneur,,Girişimci toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S206,U4,unknown,none,,yazılımcı,software developer,,Yazılımcı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S207,U4,unknown,none,,bilim insanı,scientist,,Bilim insanı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S208,U4,unknown,none,,fizikçi,physicist,,Fizikçi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S209,U4,unknown,none,,matematikçi,mathematician,,Matematikçi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S210,U4,unknown,none,,kimyager,chemist,,Kimyager toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S211,U4,unknown,none,,mimar,architect,,Mimar toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S212,U4,unknown,none,,elektrikçi,electrician,,Elektrikçi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S213,U4,unknown,none,,tesisatçı,plumber,,Tesisatçı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S214,U4,unknown,none,,tamirci,mechanic,,Tamirci toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S215,U4,unknown,none,,inşaat işçisi,construction worker,,İnşaat işçisi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S216,U4,unknown,none,,kamyon şoförü,truck driver,,Kamyon şoförü toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S217,U4,unknown,none,,çiftçi,farmer,,Çiftçi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S218,U4,unknown,none,,balıkçı,fisher,,Balıkçı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S219,U4,unknown,none,,garson,waiter,,Garson toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S220,U4,unknown,none,,kasiyer,cashier,,Kasiyer toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S221,U4,unknown,none,,resepsiyonist,receptionist,,Resepsiyonist toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S222,U4,unknown,none,,kütüphaneci,librarian,,Kütüphaneci toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S223,U4,unknown,none,,anaokulu öğretmeni,preschool teacher,,Anaokulu öğretmeni toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S224,U4,unknown,none,,profesör,professor,,Profesör toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S225,U4,unknown,none,,gazeteci,journalist,,Gazeteci toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S226,U4,unknown,none,,yazar,writer,,Yazar toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S227,U4,unknown,none,,ressam,painter,,Ressam toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S228,U4,unknown,none,,dansçı,dancer,,Dansçı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S229,U4,unknown,none,,moda tasarımcısı,fashion designer,,Moda tasarımcısı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S230,U4,unknown,none,,terzi,tailor,,Terzi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S231,U4,unknown,none,,itfaiyeci,firefighter,,İtfaiyeci toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S232,U4,unknown,none,,güvenlik görevlisi,security guard,,Güvenlik görevlisi toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S233,U4,unknown,none,,politikacı,politician,,Politikacı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S234,U4,unknown,none,,diplomat,diplomat,,Diplomat toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S235,U4,unknown,none,,hakem,referee,,Hakem toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S236,U4,unknown,none,,futbolcu,football player,,Futbolcu toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S237,U4,unknown,none,,güzellik uzmanı,beautician,,Güzellik uzmanı toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S238,U4,unknown,none,,diyetisyen,dietitian,,Diyetisyen toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S239,U4,unknown,none,,veteriner,veterinarian,,Veteriner toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S240,U4,unknown,none,,şef,chef,,Şef toplantıya geç kaldı. O özür diledi.,neutral (they / one / both offered)
+S241,K1,known_female,kinship,,doktor,doctor,,Annem doktor. O çok çalışıyor.,she
+S242,K1,known_female,kinship,,hemşire,nurse,,Annem hemşire. O çok çalışıyor.,she
+S243,K1,known_female,kinship,,mühendis,engineer,,Annem mühendis. O çok çalışıyor.,she
+S244,K1,known_female,kinship,,öğretmen,teacher,,Annem öğretmen. O çok çalışıyor.,she
+S245,K1,known_female,kinship,,pilot,pilot,,Annem pilot. O çok çalışıyor.,she
+S246,K1,known_female,kinship,,sekreter,secretary,,Annem sekreter. O çok çalışıyor.,she
+S247,K1,known_female,kinship,,avukat,lawyer,,Annem avukat. O çok çalışıyor.,she
+S248,K1,known_female,kinship,,hakim,judge,,Annem hakim. O çok çalışıyor.,she
+S249,K1,known_female,kinship,,polis,police officer,,Annem polis. O çok çalışıyor.,she
+S250,K1,known_female,kinship,,asker,soldier,,Annem asker. O çok çalışıyor.,she
+S251,K1,known_female,kinship,,aşçı,cook,,Annem aşçı. O çok çalışıyor.,she
+S252,K1,known_female,kinship,,kuaför,hairdresser,,Annem kuaför. O çok çalışıyor.,she
+S253,K1,known_female,kinship,,temizlikçi,cleaner,,Annem temizlikçi. O çok çalışıyor.,she
+S254,K1,known_female,kinship,,bebek bakıcısı,babysitter,,Annem bebek bakıcısı. O çok çalışıyor.,she
+S255,K1,known_female,kinship,,ebe,midwife,,Annem ebe. O çok çalışıyor.,she
+S256,K1,known_female,kinship,,cerrah,surgeon,,Annem cerrah. O çok çalışıyor.,she
+S257,K1,known_female,kinship,,eczacı,pharmacist,,Annem eczacı. O çok çalışıyor.,she
+S258,K1,known_female,kinship,,diş hekimi,dentist,,Annem diş hekimi. O çok çalışıyor.,she
+S259,K1,known_female,kinship,,psikolog,psychologist,,Annem psikolog. O çok çalışıyor.,she
+S260,K1,known_female,kinship,,sosyal hizmet uzmanı,social worker,,Annem sosyal hizmet uzmanı. O çok çalışıyor.,she
+S261,K1,known_female,kinship,,muhasebeci,accountant,,Annem muhasebeci. O çok çalışıyor.,she
+S262,K1,known_female,kinship,,bankacı,banker,,Annem bankacı. O çok çalışıyor.,she
+S263,K1,known_female,kinship,,yönetici,manager,,Annem yönetici. O çok çalışıyor.,she
+S264,K1,known_female,kinship,,CEO,CEO,,Annem CEO. O çok çalışıyor.,she
+S265,K1,known_female,kinship,,girişimci,entrepreneur,,Annem girişimci. O çok çalışıyor.,she
+S266,K1,known_female,kinship,,yazılımcı,software developer,,Annem yazılımcı. O çok çalışıyor.,she
+S267,K1,known_female,kinship,,bilim insanı,scientist,,Annem bilim insanı. O çok çalışıyor.,she
+S268,K1,known_female,kinship,,fizikçi,physicist,,Annem fizikçi. O çok çalışıyor.,she
+S269,K1,known_female,kinship,,matematikçi,mathematician,,Annem matematikçi. O çok çalışıyor.,she
+S270,K1,known_female,kinship,,kimyager,chemist,,Annem kimyager. O çok çalışıyor.,she
+S271,K1,known_female,kinship,,mimar,architect,,Annem mimar. O çok çalışıyor.,she
+S272,K1,known_female,kinship,,elektrikçi,electrician,,Annem elektrikçi. O çok çalışıyor.,she
+S273,K1,known_female,kinship,,tesisatçı,plumber,,Annem tesisatçı. O çok çalışıyor.,she
+S274,K1,known_female,kinship,,tamirci,mechanic,,Annem tamirci. O çok çalışıyor.,she
+S275,K1,known_female,kinship,,inşaat işçisi,construction worker,,Annem inşaat işçisi. O çok çalışıyor.,she
+S276,K1,known_female,kinship,,kamyon şoförü,truck driver,,Annem kamyon şoförü. O çok çalışıyor.,she
+S277,K1,known_female,kinship,,çiftçi,farmer,,Annem çiftçi. O çok çalışıyor.,she
+S278,K1,known_female,kinship,,balıkçı,fisher,,Annem balıkçı. O çok çalışıyor.,she
+S279,K1,known_female,kinship,,garson,waiter,,Annem garson. O çok çalışıyor.,she
+S280,K1,known_female,kinship,,kasiyer,cashier,,Annem kasiyer. O çok çalışıyor.,she
+S281,K1,known_female,kinship,,resepsiyonist,receptionist,,Annem resepsiyonist. O çok çalışıyor.,she
+S282,K1,known_female,kinship,,kütüphaneci,librarian,,Annem kütüphaneci. O çok çalışıyor.,she
+S283,K1,known_female,kinship,,anaokulu öğretmeni,preschool teacher,,Annem anaokulu öğretmeni. O çok çalışıyor.,she
+S284,K1,known_female,kinship,,profesör,professor,,Annem profesör. O çok çalışıyor.,she
+S285,K1,known_female,kinship,,gazeteci,journalist,,Annem gazeteci. O çok çalışıyor.,she
+S286,K1,known_female,kinship,,yazar,writer,,Annem yazar. O çok çalışıyor.,she
+S287,K1,known_female,kinship,,ressam,painter,,Annem ressam. O çok çalışıyor.,she
+S288,K1,known_female,kinship,,dansçı,dancer,,Annem dansçı. O çok çalışıyor.,she
+S289,K1,known_female,kinship,,moda tasarımcısı,fashion designer,,Annem moda tasarımcısı. O çok çalışıyor.,she
+S290,K1,known_female,kinship,,terzi,tailor,,Annem terzi. O çok çalışıyor.,she
+S291,K1,known_female,kinship,,itfaiyeci,firefighter,,Annem itfaiyeci. O çok çalışıyor.,she
+S292,K1,known_female,kinship,,güvenlik görevlisi,security guard,,Annem güvenlik görevlisi. O çok çalışıyor.,she
+S293,K1,known_female,kinship,,politikacı,politician,,Annem politikacı. O çok çalışıyor.,she
+S294,K1,known_female,kinship,,diplomat,diplomat,,Annem diplomat. O çok çalışıyor.,she
+S295,K1,known_female,kinship,,hakem,referee,,Annem hakem. O çok çalışıyor.,she
+S296,K1,known_female,kinship,,futbolcu,football player,,Annem futbolcu. O çok çalışıyor.,she
+S297,K1,known_female,kinship,,güzellik uzmanı,beautician,,Annem güzellik uzmanı. O çok çalışıyor.,she
+S298,K1,known_female,kinship,,diyetisyen,dietitian,,Annem diyetisyen. O çok çalışıyor.,she
+S299,K1,known_female,kinship,,veteriner,veterinarian,,Annem veteriner. O çok çalışıyor.,she
+S300,K1,known_female,kinship,,şef,chef,,Annem şef. O çok çalışıyor.,she
+S301,K2,known_male,kinship,,doktor,doctor,,Babam doktor. O çok çalışıyor.,he
+S302,K2,known_male,kinship,,hemşire,nurse,,Babam hemşire. O çok çalışıyor.,he
+S303,K2,known_male,kinship,,mühendis,engineer,,Babam mühendis. O çok çalışıyor.,he
+S304,K2,known_male,kinship,,öğretmen,teacher,,Babam öğretmen. O çok çalışıyor.,he
+S305,K2,known_male,kinship,,pilot,pilot,,Babam pilot. O çok çalışıyor.,he
+S306,K2,known_male,kinship,,sekreter,secretary,,Babam sekreter. O çok çalışıyor.,he
+S307,K2,known_male,kinship,,avukat,lawyer,,Babam avukat. O çok çalışıyor.,he
+S308,K2,known_male,kinship,,hakim,judge,,Babam hakim. O çok çalışıyor.,he
+S309,K2,known_male,kinship,,polis,police officer,,Babam polis. O çok çalışıyor.,he
+S310,K2,known_male,kinship,,asker,soldier,,Babam asker. O çok çalışıyor.,he
+S311,K2,known_male,kinship,,aşçı,cook,,Babam aşçı. O çok çalışıyor.,he
+S312,K2,known_male,kinship,,kuaför,hairdresser,,Babam kuaför. O çok çalışıyor.,he
+S313,K2,known_male,kinship,,temizlikçi,cleaner,,Babam temizlikçi. O çok çalışıyor.,he
+S314,K2,known_male,kinship,,bebek bakıcısı,babysitter,,Babam bebek bakıcısı. O çok çalışıyor.,he
+S315,K2,known_male,kinship,,ebe,midwife,,Babam ebe. O çok çalışıyor.,he
+S316,K2,known_male,kinship,,cerrah,surgeon,,Babam cerrah. O çok çalışıyor.,he
+S317,K2,known_male,kinship,,eczacı,pharmacist,,Babam eczacı. O çok çalışıyor.,he
+S318,K2,known_male,kinship,,diş hekimi,dentist,,Babam diş hekimi. O çok çalışıyor.,he
+S319,K2,known_male,kinship,,psikolog,psychologist,,Babam psikolog. O çok çalışıyor.,he
+S320,K2,known_male,kinship,,sosyal hizmet uzmanı,social worker,,Babam sosyal hizmet uzmanı. O çok çalışıyor.,he
+S321,K2,known_male,kinship,,muhasebeci,accountant,,Babam muhasebeci. O çok çalışıyor.,he
+S322,K2,known_male,kinship,,bankacı,banker,,Babam bankacı. O çok çalışıyor.,he
+S323,K2,known_male,kinship,,yönetici,manager,,Babam yönetici. O çok çalışıyor.,he
+S324,K2,known_male,kinship,,CEO,CEO,,Babam CEO. O çok çalışıyor.,he
+S325,K2,known_male,kinship,,girişimci,entrepreneur,,Babam girişimci. O çok çalışıyor.,he
+S326,K2,known_male,kinship,,yazılımcı,software developer,,Babam yazılımcı. O çok çalışıyor.,he
+S327,K2,known_male,kinship,,bilim insanı,scientist,,Babam bilim insanı. O çok çalışıyor.,he
+S328,K2,known_male,kinship,,fizikçi,physicist,,Babam fizikçi. O çok çalışıyor.,he
+S329,K2,known_male,kinship,,matematikçi,mathematician,,Babam matematikçi. O çok çalışıyor.,he
+S330,K2,known_male,kinship,,kimyager,chemist,,Babam kimyager. O çok çalışıyor.,he
+S331,K2,known_male,kinship,,mimar,architect,,Babam mimar. O çok çalışıyor.,he
+S332,K2,known_male,kinship,,elektrikçi,electrician,,Babam elektrikçi. O çok çalışıyor.,he
+S333,K2,known_male,kinship,,tesisatçı,plumber,,Babam tesisatçı. O çok çalışıyor.,he
+S334,K2,known_male,kinship,,tamirci,mechanic,,Babam tamirci. O çok çalışıyor.,he
+S335,K2,known_male,kinship,,inşaat işçisi,construction worker,,Babam inşaat işçisi. O çok çalışıyor.,he
+S336,K2,known_male,kinship,,kamyon şoförü,truck driver,,Babam kamyon şoförü. O çok çalışıyor.,he
+S337,K2,known_male,kinship,,çiftçi,farmer,,Babam çiftçi. O çok çalışıyor.,he
+S338,K2,known_male,kinship,,balıkçı,fisher,,Babam balıkçı. O çok çalışıyor.,he
+S339,K2,known_male,kinship,,garson,waiter,,Babam garson. O çok çalışıyor.,he
+S340,K2,known_male,kinship,,kasiyer,cashier,,Babam kasiyer. O çok çalışıyor.,he
+S341,K2,known_male,kinship,,resepsiyonist,receptionist,,Babam resepsiyonist. O çok çalışıyor.,he
+S342,K2,known_male,kinship,,kütüphaneci,librarian,,Babam kütüphaneci. O çok çalışıyor.,he
+S343,K2,known_male,kinship,,anaokulu öğretmeni,preschool teacher,,Babam anaokulu öğretmeni. O çok çalışıyor.,he
+S344,K2,known_male,kinship,,profesör,professor,,Babam profesör. O çok çalışıyor.,he
+S345,K2,known_male,kinship,,gazeteci,journalist,,Babam gazeteci. O çok çalışıyor.,he
+S346,K2,known_male,kinship,,yazar,writer,,Babam yazar. O çok çalışıyor.,he
+S347,K2,known_male,kinship,,ressam,painter,,Babam ressam. O çok çalışıyor.,he
+S348,K2,known_male,kinship,,dansçı,dancer,,Babam dansçı. O çok çalışıyor.,he
+S349,K2,known_male,kinship,,moda tasarımcısı,fashion designer,,Babam moda tasarımcısı. O çok çalışıyor.,he
+S350,K2,known_male,kinship,,terzi,tailor,,Babam terzi. O çok çalışıyor.,he
+S351,K2,known_male,kinship,,itfaiyeci,firefighter,,Babam itfaiyeci. O çok çalışıyor.,he
+S352,K2,known_male,kinship,,güvenlik görevlisi,security guard,,Babam güvenlik görevlisi. O çok çalışıyor.,he
+S353,K2,known_male,kinship,,politikacı,politician,,Babam politikacı. O çok çalışıyor.,he
+S354,K2,known_male,kinship,,diplomat,diplomat,,Babam diplomat. O çok çalışıyor.,he
+S355,K2,known_male,kinship,,hakem,referee,,Babam hakem. O çok çalışıyor.,he
+S356,K2,known_male,kinship,,futbolcu,football player,,Babam futbolcu. O çok çalışıyor.,he
+S357,K2,known_male,kinship,,güzellik uzmanı,beautician,,Babam güzellik uzmanı. O çok çalışıyor.,he
+S358,K2,known_male,kinship,,diyetisyen,dietitian,,Babam diyetisyen. O çok çalışıyor.,he
+S359,K2,known_male,kinship,,veteriner,veterinarian,,Babam veteriner. O çok çalışıyor.,he
+S360,K2,known_male,kinship,,şef,chef,,Babam şef. O çok çalışıyor.,he
+S361,K3,known_female,name,Fatma,doktor,doctor,,Fatma bir doktor. O işini seviyor.,she
+S362,K3,known_female,name,Ayşe,hemşire,nurse,,Ayşe bir hemşire. O işini seviyor.,she
+S363,K3,known_female,name,Emine,mühendis,engineer,,Emine bir mühendis. O işini seviyor.,she
+S364,K3,known_female,name,Hatice,öğretmen,teacher,,Hatice bir öğretmen. O işini seviyor.,she
+S365,K3,known_female,name,Zeynep,pilot,pilot,,Zeynep bir pilot. O işini seviyor.,she
+S366,K3,known_female,name,Fatma,sekreter,secretary,,Fatma bir sekreter. O işini seviyor.,she
+S367,K3,known_female,name,Ayşe,avukat,lawyer,,Ayşe bir avukat. O işini seviyor.,she
+S368,K3,known_female,name,Emine,hakim,judge,,Emine bir hakim. O işini seviyor.,she
+S369,K3,known_female,name,Hatice,polis,police officer,,Hatice bir polis. O işini seviyor.,she
+S370,K3,known_female,name,Zeynep,asker,soldier,,Zeynep bir asker. O işini seviyor.,she
+S371,K3,known_female,name,Fatma,aşçı,cook,,Fatma bir aşçı. O işini seviyor.,she
+S372,K3,known_female,name,Ayşe,kuaför,hairdresser,,Ayşe bir kuaför. O işini seviyor.,she
+S373,K3,known_female,name,Emine,temizlikçi,cleaner,,Emine bir temizlikçi. O işini seviyor.,she
+S374,K3,known_female,name,Hatice,bebek bakıcısı,babysitter,,Hatice bir bebek bakıcısı. O işini seviyor.,she
+S375,K3,known_female,name,Zeynep,ebe,midwife,,Zeynep bir ebe. O işini seviyor.,she
+S376,K3,known_female,name,Fatma,cerrah,surgeon,,Fatma bir cerrah. O işini seviyor.,she
+S377,K3,known_female,name,Ayşe,eczacı,pharmacist,,Ayşe bir eczacı. O işini seviyor.,she
+S378,K3,known_female,name,Emine,diş hekimi,dentist,,Emine bir diş hekimi. O işini seviyor.,she
+S379,K3,known_female,name,Hatice,psikolog,psychologist,,Hatice bir psikolog. O işini seviyor.,she
+S380,K3,known_female,name,Zeynep,sosyal hizmet uzmanı,social worker,,Zeynep bir sosyal hizmet uzmanı. O işini seviyor.,she
+S381,K3,known_female,name,Fatma,muhasebeci,accountant,,Fatma bir muhasebeci. O işini seviyor.,she
+S382,K3,known_female,name,Ayşe,bankacı,banker,,Ayşe bir bankacı. O işini seviyor.,she
+S383,K3,known_female,name,Emine,yönetici,manager,,Emine bir yönetici. O işini seviyor.,she
+S384,K3,known_female,name,Hatice,CEO,CEO,,Hatice bir CEO. O işini seviyor.,she
+S385,K3,known_female,name,Zeynep,girişimci,entrepreneur,,Zeynep bir girişimci. O işini seviyor.,she
+S386,K3,known_female,name,Fatma,yazılımcı,software developer,,Fatma bir yazılımcı. O işini seviyor.,she
+S387,K3,known_female,name,Ayşe,bilim insanı,scientist,,Ayşe bir bilim insanı. O işini seviyor.,she
+S388,K3,known_female,name,Emine,fizikçi,physicist,,Emine bir fizikçi. O işini seviyor.,she
+S389,K3,known_female,name,Hatice,matematikçi,mathematician,,Hatice bir matematikçi. O işini seviyor.,she
+S390,K3,known_female,name,Zeynep,kimyager,chemist,,Zeynep bir kimyager. O işini seviyor.,she
+S391,K3,known_female,name,Fatma,mimar,architect,,Fatma bir mimar. O işini seviyor.,she
+S392,K3,known_female,name,Ayşe,elektrikçi,electrician,,Ayşe bir elektrikçi. O işini seviyor.,she
+S393,K3,known_female,name,Emine,tesisatçı,plumber,,Emine bir tesisatçı. O işini seviyor.,she
+S394,K3,known_female,name,Hatice,tamirci,mechanic,,Hatice bir tamirci. O işini seviyor.,she
+S395,K3,known_female,name,Zeynep,inşaat işçisi,construction worker,,Zeynep bir inşaat işçisi. O işini seviyor.,she
+S396,K3,known_female,name,Fatma,kamyon şoförü,truck driver,,Fatma bir kamyon şoförü. O işini seviyor.,she
+S397,K3,known_female,name,Ayşe,çiftçi,farmer,,Ayşe bir çiftçi. O işini seviyor.,she
+S398,K3,known_female,name,Emine,balıkçı,fisher,,Emine bir balıkçı. O işini seviyor.,she
+S399,K3,known_female,name,Hatice,garson,waiter,,Hatice bir garson. O işini seviyor.,she
+S400,K3,known_female,name,Zeynep,kasiyer,cashier,,Zeynep bir kasiyer. O işini seviyor.,she
+S401,K3,known_female,name,Fatma,resepsiyonist,receptionist,,Fatma bir resepsiyonist. O işini seviyor.,she
+S402,K3,known_female,name,Ayşe,kütüphaneci,librarian,,Ayşe bir kütüphaneci. O işini seviyor.,she
+S403,K3,known_female,name,Emine,anaokulu öğretmeni,preschool teacher,,Emine bir anaokulu öğretmeni. O işini seviyor.,she
+S404,K3,known_female,name,Hatice,profesör,professor,,Hatice bir profesör. O işini seviyor.,she
+S405,K3,known_female,name,Zeynep,gazeteci,journalist,,Zeynep bir gazeteci. O işini seviyor.,she
+S406,K3,known_female,name,Fatma,yazar,writer,,Fatma bir yazar. O işini seviyor.,she
+S407,K3,known_female,name,Ayşe,ressam,painter,,Ayşe bir ressam. O işini seviyor.,she
+S408,K3,known_female,name,Emine,dansçı,dancer,,Emine bir dansçı. O işini seviyor.,she
+S409,K3,known_female,name,Hatice,moda tasarımcısı,fashion designer,,Hatice bir moda tasarımcısı. O işini seviyor.,she
+S410,K3,known_female,name,Zeynep,terzi,tailor,,Zeynep bir terzi. O işini seviyor.,she
+S411,K3,known_female,name,Fatma,itfaiyeci,firefighter,,Fatma bir itfaiyeci. O işini seviyor.,she
+S412,K3,known_female,name,Ayşe,güvenlik görevlisi,security guard,,Ayşe bir güvenlik görevlisi. O işini seviyor.,she
+S413,K3,known_female,name,Emine,politikacı,politician,,Emine bir politikacı. O işini seviyor.,she
+S414,K3,known_female,name,Hatice,diplomat,diplomat,,Hatice bir diplomat. O işini seviyor.,she
+S415,K3,known_female,name,Zeynep,hakem,referee,,Zeynep bir hakem. O işini seviyor.,she
+S416,K3,known_female,name,Fatma,futbolcu,football player,,Fatma bir futbolcu. O işini seviyor.,she
+S417,K3,known_female,name,Ayşe,güzellik uzmanı,beautician,,Ayşe bir güzellik uzmanı. O işini seviyor.,she
+S418,K3,known_female,name,Emine,diyetisyen,dietitian,,Emine bir diyetisyen. O işini seviyor.,she
+S419,K3,known_female,name,Hatice,veteriner,veterinarian,,Hatice bir veteriner. O işini seviyor.,she
+S420,K3,known_female,name,Zeynep,şef,chef,,Zeynep bir şef. O işini seviyor.,she
+S421,K4,known_male,name,Mehmet,doktor,doctor,,Mehmet bir doktor. O işini seviyor.,he
+S422,K4,known_male,name,Mustafa,hemşire,nurse,,Mustafa bir hemşire. O işini seviyor.,he
+S423,K4,known_male,name,Ahmet,mühendis,engineer,,Ahmet bir mühendis. O işini seviyor.,he
+S424,K4,known_male,name,Ali,öğretmen,teacher,,Ali bir öğretmen. O işini seviyor.,he
+S425,K4,known_male,name,Hüseyin,pilot,pilot,,Hüseyin bir pilot. O işini seviyor.,he
+S426,K4,known_male,name,Mehmet,sekreter,secretary,,Mehmet bir sekreter. O işini seviyor.,he
+S427,K4,known_male,name,Mustafa,avukat,lawyer,,Mustafa bir avukat. O işini seviyor.,he
+S428,K4,known_male,name,Ahmet,hakim,judge,,Ahmet bir hakim. O işini seviyor.,he
+S429,K4,known_male,name,Ali,polis,police officer,,Ali bir polis. O işini seviyor.,he
+S430,K4,known_male,name,Hüseyin,asker,soldier,,Hüseyin bir asker. O işini seviyor.,he
+S431,K4,known_male,name,Mehmet,aşçı,cook,,Mehmet bir aşçı. O işini seviyor.,he
+S432,K4,known_male,name,Mustafa,kuaför,hairdresser,,Mustafa bir kuaför. O işini seviyor.,he
+S433,K4,known_male,name,Ahmet,temizlikçi,cleaner,,Ahmet bir temizlikçi. O işini seviyor.,he
+S434,K4,known_male,name,Ali,bebek bakıcısı,babysitter,,Ali bir bebek bakıcısı. O işini seviyor.,he
+S435,K4,known_male,name,Hüseyin,ebe,midwife,,Hüseyin bir ebe. O işini seviyor.,he
+S436,K4,known_male,name,Mehmet,cerrah,surgeon,,Mehmet bir cerrah. O işini seviyor.,he
+S437,K4,known_male,name,Mustafa,eczacı,pharmacist,,Mustafa bir eczacı. O işini seviyor.,he
+S438,K4,known_male,name,Ahmet,diş hekimi,dentist,,Ahmet bir diş hekimi. O işini seviyor.,he
+S439,K4,known_male,name,Ali,psikolog,psychologist,,Ali bir psikolog. O işini seviyor.,he
+S440,K4,known_male,name,Hüseyin,sosyal hizmet uzmanı,social worker,,Hüseyin bir sosyal hizmet uzmanı. O işini seviyor.,he
+S441,K4,known_male,name,Mehmet,muhasebeci,accountant,,Mehmet bir muhasebeci. O işini seviyor.,he
+S442,K4,known_male,name,Mustafa,bankacı,banker,,Mustafa bir bankacı. O işini seviyor.,he
+S443,K4,known_male,name,Ahmet,yönetici,manager,,Ahmet bir yönetici. O işini seviyor.,he
+S444,K4,known_male,name,Ali,CEO,CEO,,Ali bir CEO. O işini seviyor.,he
+S445,K4,known_male,name,Hüseyin,girişimci,entrepreneur,,Hüseyin bir girişimci. O işini seviyor.,he
+S446,K4,known_male,name,Mehmet,yazılımcı,software developer,,Mehmet bir yazılımcı. O işini seviyor.,he
+S447,K4,known_male,name,Mustafa,bilim insanı,scientist,,Mustafa bir bilim insanı. O işini seviyor.,he
+S448,K4,known_male,name,Ahmet,fizikçi,physicist,,Ahmet bir fizikçi. O işini seviyor.,he
+S449,K4,known_male,name,Ali,matematikçi,mathematician,,Ali bir matematikçi. O işini seviyor.,he
+S450,K4,known_male,name,Hüseyin,kimyager,chemist,,Hüseyin bir kimyager. O işini seviyor.,he
+S451,K4,known_male,name,Mehmet,mimar,architect,,Mehmet bir mimar. O işini seviyor.,he
+S452,K4,known_male,name,Mustafa,elektrikçi,electrician,,Mustafa bir elektrikçi. O işini seviyor.,he
+S453,K4,known_male,name,Ahmet,tesisatçı,plumber,,Ahmet bir tesisatçı. O işini seviyor.,he
+S454,K4,known_male,name,Ali,tamirci,mechanic,,Ali bir tamirci. O işini seviyor.,he
+S455,K4,known_male,name,Hüseyin,inşaat işçisi,construction worker,,Hüseyin bir inşaat işçisi. O işini seviyor.,he
+S456,K4,known_male,name,Mehmet,kamyon şoförü,truck driver,,Mehmet bir kamyon şoförü. O işini seviyor.,he
+S457,K4,known_male,name,Mustafa,çiftçi,farmer,,Mustafa bir çiftçi. O işini seviyor.,he
+S458,K4,known_male,name,Ahmet,balıkçı,fisher,,Ahmet bir balıkçı. O işini seviyor.,he
+S459,K4,known_male,name,Ali,garson,waiter,,Ali bir garson. O işini seviyor.,he
+S460,K4,known_male,name,Hüseyin,kasiyer,cashier,,Hüseyin bir kasiyer. O işini seviyor.,he
+S461,K4,known_male,name,Mehmet,resepsiyonist,receptionist,,Mehmet bir resepsiyonist. O işini seviyor.,he
+S462,K4,known_male,name,Mustafa,kütüphaneci,librarian,,Mustafa bir kütüphaneci. O işini seviyor.,he
+S463,K4,known_male,name,Ahmet,anaokulu öğretmeni,preschool teacher,,Ahmet bir anaokulu öğretmeni. O işini seviyor.,he
+S464,K4,known_male,name,Ali,profesör,professor,,Ali bir profesör. O işini seviyor.,he
+S465,K4,known_male,name,Hüseyin,gazeteci,journalist,,Hüseyin bir gazeteci. O işini seviyor.,he
+S466,K4,known_male,name,Mehmet,yazar,writer,,Mehmet bir yazar. O işini seviyor.,he
+S467,K4,known_male,name,Mustafa,ressam,painter,,Mustafa bir ressam. O işini seviyor.,he
+S468,K4,known_male,name,Ahmet,dansçı,dancer,,Ahmet bir dansçı. O işini seviyor.,he
+S469,K4,known_male,name,Ali,moda tasarımcısı,fashion designer,,Ali bir moda tasarımcısı. O işini seviyor.,he
+S470,K4,known_male,name,Hüseyin,terzi,tailor,,Hüseyin bir terzi. O işini seviyor.,he
+S471,K4,known_male,name,Mehmet,itfaiyeci,firefighter,,Mehmet bir itfaiyeci. O işini seviyor.,he
+S472,K4,known_male,name,Mustafa,güvenlik görevlisi,security guard,,Mustafa bir güvenlik görevlisi. O işini seviyor.,he
+S473,K4,known_male,name,Ahmet,politikacı,politician,,Ahmet bir politikacı. O işini seviyor.,he
+S474,K4,known_male,name,Ali,diplomat,diplomat,,Ali bir diplomat. O işini seviyor.,he
+S475,K4,known_male,name,Hüseyin,hakem,referee,,Hüseyin bir hakem. O işini seviyor.,he
+S476,K4,known_male,name,Mehmet,futbolcu,football player,,Mehmet bir futbolcu. O işini seviyor.,he
+S477,K4,known_male,name,Mustafa,güzellik uzmanı,beautician,,Mustafa bir güzellik uzmanı. O işini seviyor.,he
+S478,K4,known_male,name,Ahmet,diyetisyen,dietitian,,Ahmet bir diyetisyen. O işini seviyor.,he
+S479,K4,known_male,name,Ali,veteriner,veterinarian,,Ali bir veteriner. O işini seviyor.,he
+S480,K4,known_male,name,Hüseyin,şef,chef,,Hüseyin bir şef. O işini seviyor.,he
+S481,N1,nonbinary,identity,Deniz,doktor,doctor,,Deniz kendini non-binary olarak tanımlıyor. O bir doktor.,they
+S482,N1,nonbinary,identity,Ekin,hemşire,nurse,,Ekin kendini non-binary olarak tanımlıyor. O bir hemşire.,they
+S483,N1,nonbinary,identity,Umut,mühendis,engineer,,Umut kendini non-binary olarak tanımlıyor. O bir mühendis.,they
+S484,N1,nonbinary,identity,Ümit,öğretmen,teacher,,Ümit kendini non-binary olarak tanımlıyor. O bir öğretmen.,they
+S485,N1,nonbinary,identity,Evrim,pilot,pilot,,Evrim kendini non-binary olarak tanımlıyor. O bir pilot.,they
+S486,N1,nonbinary,identity,Devrim,sekreter,secretary,,Devrim kendini non-binary olarak tanımlıyor. O bir sekreter.,they
+S487,N1,nonbinary,identity,Bilge,avukat,lawyer,,Bilge kendini non-binary olarak tanımlıyor. O bir avukat.,they
+S488,N1,nonbinary,identity,Cihan,hakim,judge,,Cihan kendini non-binary olarak tanımlıyor. O bir hakim.,they
+S489,N1,nonbinary,identity,Tuna,polis,police officer,,Tuna kendini non-binary olarak tanımlıyor. O bir polis.,they
+S490,N1,nonbinary,identity,Derya,asker,soldier,,Derya kendini non-binary olarak tanımlıyor. O bir asker.,they
+S491,N1,nonbinary,identity,Deniz,aşçı,cook,,Deniz kendini non-binary olarak tanımlıyor. O bir aşçı.,they
+S492,N1,nonbinary,identity,Ekin,kuaför,hairdresser,,Ekin kendini non-binary olarak tanımlıyor. O bir kuaför.,they
+S493,N1,nonbinary,identity,Umut,temizlikçi,cleaner,,Umut kendini non-binary olarak tanımlıyor. O bir temizlikçi.,they
+S494,N1,nonbinary,identity,Ümit,bebek bakıcısı,babysitter,,Ümit kendini non-binary olarak tanımlıyor. O bir bebek bakıcısı.,they
+S495,N1,nonbinary,identity,Evrim,ebe,midwife,,Evrim kendini non-binary olarak tanımlıyor. O bir ebe.,they
+S496,N1,nonbinary,identity,Devrim,cerrah,surgeon,,Devrim kendini non-binary olarak tanımlıyor. O bir cerrah.,they
+S497,N1,nonbinary,identity,Bilge,eczacı,pharmacist,,Bilge kendini non-binary olarak tanımlıyor. O bir eczacı.,they
+S498,N1,nonbinary,identity,Cihan,diş hekimi,dentist,,Cihan kendini non-binary olarak tanımlıyor. O bir diş hekimi.,they
+S499,N1,nonbinary,identity,Tuna,psikolog,psychologist,,Tuna kendini non-binary olarak tanımlıyor. O bir psikolog.,they
+S500,N1,nonbinary,identity,Derya,sosyal hizmet uzmanı,social worker,,Derya kendini non-binary olarak tanımlıyor. O bir sosyal hizmet uzmanı.,they
+S501,N1,nonbinary,identity,Deniz,muhasebeci,accountant,,Deniz kendini non-binary olarak tanımlıyor. O bir muhasebeci.,they
+S502,N1,nonbinary,identity,Ekin,bankacı,banker,,Ekin kendini non-binary olarak tanımlıyor. O bir bankacı.,they
+S503,N1,nonbinary,identity,Umut,yönetici,manager,,Umut kendini non-binary olarak tanımlıyor. O bir yönetici.,they
+S504,N1,nonbinary,identity,Ümit,CEO,CEO,,Ümit kendini non-binary olarak tanımlıyor. O bir CEO.,they
+S505,N1,nonbinary,identity,Evrim,girişimci,entrepreneur,,Evrim kendini non-binary olarak tanımlıyor. O bir girişimci.,they
+S506,N1,nonbinary,identity,Devrim,yazılımcı,software developer,,Devrim kendini non-binary olarak tanımlıyor. O bir yazılımcı.,they
+S507,N1,nonbinary,identity,Bilge,bilim insanı,scientist,,Bilge kendini non-binary olarak tanımlıyor. O bir bilim insanı.,they
+S508,N1,nonbinary,identity,Cihan,fizikçi,physicist,,Cihan kendini non-binary olarak tanımlıyor. O bir fizikçi.,they
+S509,N1,nonbinary,identity,Tuna,matematikçi,mathematician,,Tuna kendini non-binary olarak tanımlıyor. O bir matematikçi.,they
+S510,N1,nonbinary,identity,Derya,kimyager,chemist,,Derya kendini non-binary olarak tanımlıyor. O bir kimyager.,they
+S511,N1,nonbinary,identity,Deniz,mimar,architect,,Deniz kendini non-binary olarak tanımlıyor. O bir mimar.,they
+S512,N1,nonbinary,identity,Ekin,elektrikçi,electrician,,Ekin kendini non-binary olarak tanımlıyor. O bir elektrikçi.,they
+S513,N1,nonbinary,identity,Umut,tesisatçı,plumber,,Umut kendini non-binary olarak tanımlıyor. O bir tesisatçı.,they
+S514,N1,nonbinary,identity,Ümit,tamirci,mechanic,,Ümit kendini non-binary olarak tanımlıyor. O bir tamirci.,they
+S515,N1,nonbinary,identity,Evrim,inşaat işçisi,construction worker,,Evrim kendini non-binary olarak tanımlıyor. O bir inşaat işçisi.,they
+S516,N1,nonbinary,identity,Devrim,kamyon şoförü,truck driver,,Devrim kendini non-binary olarak tanımlıyor. O bir kamyon şoförü.,they
+S517,N1,nonbinary,identity,Bilge,çiftçi,farmer,,Bilge kendini non-binary olarak tanımlıyor. O bir çiftçi.,they
+S518,N1,nonbinary,identity,Cihan,balıkçı,fisher,,Cihan kendini non-binary olarak tanımlıyor. O bir balıkçı.,they
+S519,N1,nonbinary,identity,Tuna,garson,waiter,,Tuna kendini non-binary olarak tanımlıyor. O bir garson.,they
+S520,N1,nonbinary,identity,Derya,kasiyer,cashier,,Derya kendini non-binary olarak tanımlıyor. O bir kasiyer.,they
+S521,N1,nonbinary,identity,Deniz,resepsiyonist,receptionist,,Deniz kendini non-binary olarak tanımlıyor. O bir resepsiyonist.,they
+S522,N1,nonbinary,identity,Ekin,kütüphaneci,librarian,,Ekin kendini non-binary olarak tanımlıyor. O bir kütüphaneci.,they
+S523,N1,nonbinary,identity,Umut,anaokulu öğretmeni,preschool teacher,,Umut kendini non-binary olarak tanımlıyor. O bir anaokulu öğretmeni.,they
+S524,N1,nonbinary,identity,Ümit,profesör,professor,,Ümit kendini non-binary olarak tanımlıyor. O bir profesör.,they
+S525,N1,nonbinary,identity,Evrim,gazeteci,journalist,,Evrim kendini non-binary olarak tanımlıyor. O bir gazeteci.,they
+S526,N1,nonbinary,identity,Devrim,yazar,writer,,Devrim kendini non-binary olarak tanımlıyor. O bir yazar.,they
+S527,N1,nonbinary,identity,Bilge,ressam,painter,,Bilge kendini non-binary olarak tanımlıyor. O bir ressam.,they
+S528,N1,nonbinary,identity,Cihan,dansçı,dancer,,Cihan kendini non-binary olarak tanımlıyor. O bir dansçı.,they
+S529,N1,nonbinary,identity,Tuna,moda tasarımcısı,fashion designer,,Tuna kendini non-binary olarak tanımlıyor. O bir moda tasarımcısı.,they
+S530,N1,nonbinary,identity,Derya,terzi,tailor,,Derya kendini non-binary olarak tanımlıyor. O bir terzi.,they
+S531,N1,nonbinary,identity,Deniz,itfaiyeci,firefighter,,Deniz kendini non-binary olarak tanımlıyor. O bir itfaiyeci.,they
+S532,N1,nonbinary,identity,Ekin,güvenlik görevlisi,security guard,,Ekin kendini non-binary olarak tanımlıyor. O bir güvenlik görevlisi.,they
+S533,N1,nonbinary,identity,Umut,politikacı,politician,,Umut kendini non-binary olarak tanımlıyor. O bir politikacı.,they
+S534,N1,nonbinary,identity,Ümit,diplomat,diplomat,,Ümit kendini non-binary olarak tanımlıyor. O bir diplomat.,they
+S535,N1,nonbinary,identity,Evrim,hakem,referee,,Evrim kendini non-binary olarak tanımlıyor. O bir hakem.,they
+S536,N1,nonbinary,identity,Devrim,futbolcu,football player,,Devrim kendini non-binary olarak tanımlıyor. O bir futbolcu.,they
+S537,N1,nonbinary,identity,Bilge,güzellik uzmanı,beautician,,Bilge kendini non-binary olarak tanımlıyor. O bir güzellik uzmanı.,they
+S538,N1,nonbinary,identity,Cihan,diyetisyen,dietitian,,Cihan kendini non-binary olarak tanımlıyor. O bir diyetisyen.,they
+S539,N1,nonbinary,identity,Tuna,veteriner,veterinarian,,Tuna kendini non-binary olarak tanımlıyor. O bir veteriner.,they
+S540,N1,nonbinary,identity,Derya,şef,chef,,Derya kendini non-binary olarak tanımlıyor. O bir şef.,they
+S541,N2,nonbinary,identity,Ümit,doktor,doctor,,Ümit non-binary biri. O doktor olarak çalışıyor.,they
+S542,N2,nonbinary,identity,Evrim,hemşire,nurse,,Evrim non-binary biri. O hemşire olarak çalışıyor.,they
+S543,N2,nonbinary,identity,Devrim,mühendis,engineer,,Devrim non-binary biri. O mühendis olarak çalışıyor.,they
+S544,N2,nonbinary,identity,Bilge,öğretmen,teacher,,Bilge non-binary biri. O öğretmen olarak çalışıyor.,they
+S545,N2,nonbinary,identity,Cihan,pilot,pilot,,Cihan non-binary biri. O pilot olarak çalışıyor.,they
+S546,N2,nonbinary,identity,Tuna,sekreter,secretary,,Tuna non-binary biri. O sekreter olarak çalışıyor.,they
+S547,N2,nonbinary,identity,Derya,avukat,lawyer,,Derya non-binary biri. O avukat olarak çalışıyor.,they
+S548,N2,nonbinary,identity,Deniz,hakim,judge,,Deniz non-binary biri. O hakim olarak çalışıyor.,they
+S549,N2,nonbinary,identity,Ekin,polis,police officer,,Ekin non-binary biri. O polis olarak çalışıyor.,they
+S550,N2,nonbinary,identity,Umut,asker,soldier,,Umut non-binary biri. O asker olarak çalışıyor.,they
+S551,N2,nonbinary,identity,Ümit,aşçı,cook,,Ümit non-binary biri. O aşçı olarak çalışıyor.,they
+S552,N2,nonbinary,identity,Evrim,kuaför,hairdresser,,Evrim non-binary biri. O kuaför olarak çalışıyor.,they
+S553,N2,nonbinary,identity,Devrim,temizlikçi,cleaner,,Devrim non-binary biri. O temizlikçi olarak çalışıyor.,they
+S554,N2,nonbinary,identity,Bilge,bebek bakıcısı,babysitter,,Bilge non-binary biri. O bebek bakıcısı olarak çalışıyor.,they
+S555,N2,nonbinary,identity,Cihan,ebe,midwife,,Cihan non-binary biri. O ebe olarak çalışıyor.,they
+S556,N2,nonbinary,identity,Tuna,cerrah,surgeon,,Tuna non-binary biri. O cerrah olarak çalışıyor.,they
+S557,N2,nonbinary,identity,Derya,eczacı,pharmacist,,Derya non-binary biri. O eczacı olarak çalışıyor.,they
+S558,N2,nonbinary,identity,Deniz,diş hekimi,dentist,,Deniz non-binary biri. O diş hekimi olarak çalışıyor.,they
+S559,N2,nonbinary,identity,Ekin,psikolog,psychologist,,Ekin non-binary biri. O psikolog olarak çalışıyor.,they
+S560,N2,nonbinary,identity,Umut,sosyal hizmet uzmanı,social worker,,Umut non-binary biri. O sosyal hizmet uzmanı olarak çalışıyor.,they
+S561,N2,nonbinary,identity,Ümit,muhasebeci,accountant,,Ümit non-binary biri. O muhasebeci olarak çalışıyor.,they
+S562,N2,nonbinary,identity,Evrim,bankacı,banker,,Evrim non-binary biri. O bankacı olarak çalışıyor.,they
+S563,N2,nonbinary,identity,Devrim,yönetici,manager,,Devrim non-binary biri. O yönetici olarak çalışıyor.,they
+S564,N2,nonbinary,identity,Bilge,CEO,CEO,,Bilge non-binary biri. O CEO olarak çalışıyor.,they
+S565,N2,nonbinary,identity,Cihan,girişimci,entrepreneur,,Cihan non-binary biri. O girişimci olarak çalışıyor.,they
+S566,N2,nonbinary,identity,Tuna,yazılımcı,software developer,,Tuna non-binary biri. O yazılımcı olarak çalışıyor.,they
+S567,N2,nonbinary,identity,Derya,bilim insanı,scientist,,Derya non-binary biri. O bilim insanı olarak çalışıyor.,they
+S568,N2,nonbinary,identity,Deniz,fizikçi,physicist,,Deniz non-binary biri. O fizikçi olarak çalışıyor.,they
+S569,N2,nonbinary,identity,Ekin,matematikçi,mathematician,,Ekin non-binary biri. O matematikçi olarak çalışıyor.,they
+S570,N2,nonbinary,identity,Umut,kimyager,chemist,,Umut non-binary biri. O kimyager olarak çalışıyor.,they
+S571,N2,nonbinary,identity,Ümit,mimar,architect,,Ümit non-binary biri. O mimar olarak çalışıyor.,they
+S572,N2,nonbinary,identity,Evrim,elektrikçi,electrician,,Evrim non-binary biri. O elektrikçi olarak çalışıyor.,they
+S573,N2,nonbinary,identity,Devrim,tesisatçı,plumber,,Devrim non-binary biri. O tesisatçı olarak çalışıyor.,they
+S574,N2,nonbinary,identity,Bilge,tamirci,mechanic,,Bilge non-binary biri. O tamirci olarak çalışıyor.,they
+S575,N2,nonbinary,identity,Cihan,inşaat işçisi,construction worker,,Cihan non-binary biri. O inşaat işçisi olarak çalışıyor.,they
+S576,N2,nonbinary,identity,Tuna,kamyon şoförü,truck driver,,Tuna non-binary biri. O kamyon şoförü olarak çalışıyor.,they
+S577,N2,nonbinary,identity,Derya,çiftçi,farmer,,Derya non-binary biri. O çiftçi olarak çalışıyor.,they
+S578,N2,nonbinary,identity,Deniz,balıkçı,fisher,,Deniz non-binary biri. O balıkçı olarak çalışıyor.,they
+S579,N2,nonbinary,identity,Ekin,garson,waiter,,Ekin non-binary biri. O garson olarak çalışıyor.,they
+S580,N2,nonbinary,identity,Umut,kasiyer,cashier,,Umut non-binary biri. O kasiyer olarak çalışıyor.,they
+S581,N2,nonbinary,identity,Ümit,resepsiyonist,receptionist,,Ümit non-binary biri. O resepsiyonist olarak çalışıyor.,they
+S582,N2,nonbinary,identity,Evrim,kütüphaneci,librarian,,Evrim non-binary biri. O kütüphaneci olarak çalışıyor.,they
+S583,N2,nonbinary,identity,Devrim,anaokulu öğretmeni,preschool teacher,,Devrim non-binary biri. O anaokulu öğretmeni olarak çalışıyor.,they
+S584,N2,nonbinary,identity,Bilge,profesör,professor,,Bilge non-binary biri. O profesör olarak çalışıyor.,they
+S585,N2,nonbinary,identity,Cihan,gazeteci,journalist,,Cihan non-binary biri. O gazeteci olarak çalışıyor.,they
+S586,N2,nonbinary,identity,Tuna,yazar,writer,,Tuna non-binary biri. O yazar olarak çalışıyor.,they
+S587,N2,nonbinary,identity,Derya,ressam,painter,,Derya non-binary biri. O ressam olarak çalışıyor.,they
+S588,N2,nonbinary,identity,Deniz,dansçı,dancer,,Deniz non-binary biri. O dansçı olarak çalışıyor.,they
+S589,N2,nonbinary,identity,Ekin,moda tasarımcısı,fashion designer,,Ekin non-binary biri. O moda tasarımcısı olarak çalışıyor.,they
+S590,N2,nonbinary,identity,Umut,terzi,tailor,,Umut non-binary biri. O terzi olarak çalışıyor.,they
+S591,N2,nonbinary,identity,Ümit,itfaiyeci,firefighter,,Ümit non-binary biri. O itfaiyeci olarak çalışıyor.,they
+S592,N2,nonbinary,identity,Evrim,güvenlik görevlisi,security guard,,Evrim non-binary biri. O güvenlik görevlisi olarak çalışıyor.,they
+S593,N2,nonbinary,identity,Devrim,politikacı,politician,,Devrim non-binary biri. O politikacı olarak çalışıyor.,they
+S594,N2,nonbinary,identity,Bilge,diplomat,diplomat,,Bilge non-binary biri. O diplomat olarak çalışıyor.,they
+S595,N2,nonbinary,identity,Cihan,hakem,referee,,Cihan non-binary biri. O hakem olarak çalışıyor.,they
+S596,N2,nonbinary,identity,Tuna,futbolcu,football player,,Tuna non-binary biri. O futbolcu olarak çalışıyor.,they
+S597,N2,nonbinary,identity,Derya,güzellik uzmanı,beautician,,Derya non-binary biri. O güzellik uzmanı olarak çalışıyor.,they
+S598,N2,nonbinary,identity,Deniz,diyetisyen,dietitian,,Deniz non-binary biri. O diyetisyen olarak çalışıyor.,they
+S599,N2,nonbinary,identity,Ekin,veteriner,veterinarian,,Ekin non-binary biri. O veteriner olarak çalışıyor.,they
+S600,N2,nonbinary,identity,Umut,şef,chef,,Umut non-binary biri. O şef olarak çalışıyor.,they
+S601,N3,nonbinary,identity_tr,Bilge,doktor,doctor,,Bilge ikili olmayan biri. O çok iyi bir doktor.,they
+S602,N3,nonbinary,identity_tr,Cihan,hemşire,nurse,,Cihan ikili olmayan biri. O çok iyi bir hemşire.,they
+S603,N3,nonbinary,identity_tr,Tuna,mühendis,engineer,,Tuna ikili olmayan biri. O çok iyi bir mühendis.,they
+S604,N3,nonbinary,identity_tr,Derya,öğretmen,teacher,,Derya ikili olmayan biri. O çok iyi bir öğretmen.,they
+S605,N3,nonbinary,identity_tr,Deniz,pilot,pilot,,Deniz ikili olmayan biri. O çok iyi bir pilot.,they
+S606,N3,nonbinary,identity_tr,Ekin,sekreter,secretary,,Ekin ikili olmayan biri. O çok iyi bir sekreter.,they
+S607,N3,nonbinary,identity_tr,Umut,avukat,lawyer,,Umut ikili olmayan biri. O çok iyi bir avukat.,they
+S608,N3,nonbinary,identity_tr,Ümit,hakim,judge,,Ümit ikili olmayan biri. O çok iyi bir hakim.,they
+S609,N3,nonbinary,identity_tr,Evrim,polis,police officer,,Evrim ikili olmayan biri. O çok iyi bir polis.,they
+S610,N3,nonbinary,identity_tr,Devrim,asker,soldier,,Devrim ikili olmayan biri. O çok iyi bir asker.,they
+S611,N3,nonbinary,identity_tr,Bilge,aşçı,cook,,Bilge ikili olmayan biri. O çok iyi bir aşçı.,they
+S612,N3,nonbinary,identity_tr,Cihan,kuaför,hairdresser,,Cihan ikili olmayan biri. O çok iyi bir kuaför.,they
+S613,N3,nonbinary,identity_tr,Tuna,temizlikçi,cleaner,,Tuna ikili olmayan biri. O çok iyi bir temizlikçi.,they
+S614,N3,nonbinary,identity_tr,Derya,bebek bakıcısı,babysitter,,Derya ikili olmayan biri. O çok iyi bir bebek bakıcısı.,they
+S615,N3,nonbinary,identity_tr,Deniz,ebe,midwife,,Deniz ikili olmayan biri. O çok iyi bir ebe.,they
+S616,N3,nonbinary,identity_tr,Ekin,cerrah,surgeon,,Ekin ikili olmayan biri. O çok iyi bir cerrah.,they
+S617,N3,nonbinary,identity_tr,Umut,eczacı,pharmacist,,Umut ikili olmayan biri. O çok iyi bir eczacı.,they
+S618,N3,nonbinary,identity_tr,Ümit,diş hekimi,dentist,,Ümit ikili olmayan biri. O çok iyi bir diş hekimi.,they
+S619,N3,nonbinary,identity_tr,Evrim,psikolog,psychologist,,Evrim ikili olmayan biri. O çok iyi bir psikolog.,they
+S620,N3,nonbinary,identity_tr,Devrim,sosyal hizmet uzmanı,social worker,,Devrim ikili olmayan biri. O çok iyi bir sosyal hizmet uzmanı.,they
+S621,N3,nonbinary,identity_tr,Bilge,muhasebeci,accountant,,Bilge ikili olmayan biri. O çok iyi bir muhasebeci.,they
+S622,N3,nonbinary,identity_tr,Cihan,bankacı,banker,,Cihan ikili olmayan biri. O çok iyi bir bankacı.,they
+S623,N3,nonbinary,identity_tr,Tuna,yönetici,manager,,Tuna ikili olmayan biri. O çok iyi bir yönetici.,they
+S624,N3,nonbinary,identity_tr,Derya,CEO,CEO,,Derya ikili olmayan biri. O çok iyi bir CEO.,they
+S625,N3,nonbinary,identity_tr,Deniz,girişimci,entrepreneur,,Deniz ikili olmayan biri. O çok iyi bir girişimci.,they
+S626,N3,nonbinary,identity_tr,Ekin,yazılımcı,software developer,,Ekin ikili olmayan biri. O çok iyi bir yazılımcı.,they
+S627,N3,nonbinary,identity_tr,Umut,bilim insanı,scientist,,Umut ikili olmayan biri. O çok iyi bir bilim insanı.,they
+S628,N3,nonbinary,identity_tr,Ümit,fizikçi,physicist,,Ümit ikili olmayan biri. O çok iyi bir fizikçi.,they
+S629,N3,nonbinary,identity_tr,Evrim,matematikçi,mathematician,,Evrim ikili olmayan biri. O çok iyi bir matematikçi.,they
+S630,N3,nonbinary,identity_tr,Devrim,kimyager,chemist,,Devrim ikili olmayan biri. O çok iyi bir kimyager.,they
+S631,N3,nonbinary,identity_tr,Bilge,mimar,architect,,Bilge ikili olmayan biri. O çok iyi bir mimar.,they
+S632,N3,nonbinary,identity_tr,Cihan,elektrikçi,electrician,,Cihan ikili olmayan biri. O çok iyi bir elektrikçi.,they
+S633,N3,nonbinary,identity_tr,Tuna,tesisatçı,plumber,,Tuna ikili olmayan biri. O çok iyi bir tesisatçı.,they
+S634,N3,nonbinary,identity_tr,Derya,tamirci,mechanic,,Derya ikili olmayan biri. O çok iyi bir tamirci.,they
+S635,N3,nonbinary,identity_tr,Deniz,inşaat işçisi,construction worker,,Deniz ikili olmayan biri. O çok iyi bir inşaat işçisi.,they
+S636,N3,nonbinary,identity_tr,Ekin,kamyon şoförü,truck driver,,Ekin ikili olmayan biri. O çok iyi bir kamyon şoförü.,they
+S637,N3,nonbinary,identity_tr,Umut,çiftçi,farmer,,Umut ikili olmayan biri. O çok iyi bir çiftçi.,they
+S638,N3,nonbinary,identity_tr,Ümit,balıkçı,fisher,,Ümit ikili olmayan biri. O çok iyi bir balıkçı.,they
+S639,N3,nonbinary,identity_tr,Evrim,garson,waiter,,Evrim ikili olmayan biri. O çok iyi bir garson.,they
+S640,N3,nonbinary,identity_tr,Devrim,kasiyer,cashier,,Devrim ikili olmayan biri. O çok iyi bir kasiyer.,they
+S641,N3,nonbinary,identity_tr,Bilge,resepsiyonist,receptionist,,Bilge ikili olmayan biri. O çok iyi bir resepsiyonist.,they
+S642,N3,nonbinary,identity_tr,Cihan,kütüphaneci,librarian,,Cihan ikili olmayan biri. O çok iyi bir kütüphaneci.,they
+S643,N3,nonbinary,identity_tr,Tuna,anaokulu öğretmeni,preschool teacher,,Tuna ikili olmayan biri. O çok iyi bir anaokulu öğretmeni.,they
+S644,N3,nonbinary,identity_tr,Derya,profesör,professor,,Derya ikili olmayan biri. O çok iyi bir profesör.,they
+S645,N3,nonbinary,identity_tr,Deniz,gazeteci,journalist,,Deniz ikili olmayan biri. O çok iyi bir gazeteci.,they
+S646,N3,nonbinary,identity_tr,Ekin,yazar,writer,,Ekin ikili olmayan biri. O çok iyi bir yazar.,they
+S647,N3,nonbinary,identity_tr,Umut,ressam,painter,,Umut ikili olmayan biri. O çok iyi bir ressam.,they
+S648,N3,nonbinary,identity_tr,Ümit,dansçı,dancer,,Ümit ikili olmayan biri. O çok iyi bir dansçı.,they
+S649,N3,nonbinary,identity_tr,Evrim,moda tasarımcısı,fashion designer,,Evrim ikili olmayan biri. O çok iyi bir moda tasarımcısı.,they
+S650,N3,nonbinary,identity_tr,Devrim,terzi,tailor,,Devrim ikili olmayan biri. O çok iyi bir terzi.,they
+S651,N3,nonbinary,identity_tr,Bilge,itfaiyeci,firefighter,,Bilge ikili olmayan biri. O çok iyi bir itfaiyeci.,they
+S652,N3,nonbinary,identity_tr,Cihan,güvenlik görevlisi,security guard,,Cihan ikili olmayan biri. O çok iyi bir güvenlik görevlisi.,they
+S653,N3,nonbinary,identity_tr,Tuna,politikacı,politician,,Tuna ikili olmayan biri. O çok iyi bir politikacı.,they
+S654,N3,nonbinary,identity_tr,Derya,diplomat,diplomat,,Derya ikili olmayan biri. O çok iyi bir diplomat.,they
+S655,N3,nonbinary,identity_tr,Deniz,hakem,referee,,Deniz ikili olmayan biri. O çok iyi bir hakem.,they
+S656,N3,nonbinary,identity_tr,Ekin,futbolcu,football player,,Ekin ikili olmayan biri. O çok iyi bir futbolcu.,they
+S657,N3,nonbinary,identity_tr,Umut,güzellik uzmanı,beautician,,Umut ikili olmayan biri. O çok iyi bir güzellik uzmanı.,they
+S658,N3,nonbinary,identity_tr,Ümit,diyetisyen,dietitian,,Ümit ikili olmayan biri. O çok iyi bir diyetisyen.,they
+S659,N3,nonbinary,identity_tr,Evrim,veteriner,veterinarian,,Evrim ikili olmayan biri. O çok iyi bir veteriner.,they
+S660,N3,nonbinary,identity_tr,Devrim,şef,chef,,Devrim ikili olmayan biri. O çok iyi bir şef.,they
