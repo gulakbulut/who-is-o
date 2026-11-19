@@ -2,7 +2,7 @@ import json
 import urllib.request
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL = "qwen3:4b-instruct"   # must match the name in `ollama list`
+MODEL = "gemma3:4b"   # must match the name in `ollama list`
 
 
 def ask(prompt):
