@@ -1,0 +1,19 @@
+# Plot4 
+
+- Date: 19.11.2026
+- Model: qwen3:4b-instruct (no reasoning text)
+- Script: scripts/run_pilot.py
+- Data sets :dataset v2 (720 sentences, 7 teaching examples), jobs doktor + hemşire, 72 answers.
+
+1. Unknown : baseline 0/8, tell 0/8 → the rule alone did nothing. Show 7/8. Only U4 nurse (“The nurse stayed late… She apologized”) stayed “she”. Maybe nurse is the strongest stereotype? i will check if this happens with Gemma too.
+
+2. Over-correction: fixed for women, not for men in “women’s” jobs. All four female sentences are right now. But “Mustafa bir hemşire” still becomes “They” under tell and show, even though E7 shows the model exactly this pattern (“Murat bir manikürcü → He”). At baseline the stereotype wins outright: “Mustafa is a nurse. She…”. A man in a job seen as female is the hardest case for the model.
+
+
+3. Contribution 3: the clearest finding so far. At baseline:
+
+with “non-binary”, the model used “they” in 3 of 4 sentences;
+with “ikili cinsiyet sisteminin dışında”, in 0 of 4.
+But it translated the Turkish phrase correctly (“someone outside the binary gender system”) and still wrote “He” or “She”. So it understands the words but doesn’t connect them to the pronoun. With the English loanword it does. Tell and show fix both (8/8).
+
+4. Names read as words, all at baseline: Deniz → “Sea”, Bilge → “Wise” (twice), and Devrim → “revolutionary” binary gender system. The name_kept column will catch these later.
